@@ -3,3 +3,6 @@ dist
 nbproject
 bin
 .*
+*.iml
+*.ipr
+*.iws
