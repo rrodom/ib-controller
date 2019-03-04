@@ -21,14 +21,11 @@ setlocal enableextensions enabledelayedexpansion
 ::=============================================================================+
 
 
-set TWS_MAJOR_VRSN=963
-set IBC_INI=%HOMEDRIVE%%HOMEPATH%\Documents\IBController\IBController.ini
-set TRADING_MODE=
+set TWS_MAJOR_VRSN=974
+set IBC_INI=%HOMEDRIVE%%HOMEPATH%\.IBController\IBController.ini
 set IBC_PATH=%SYSTEMDRIVE%\IBController
 set TWS_PATH=%SYSTEMDRIVE%\Jts
 set LOG_PATH=%IBC_PATH%\Logs
-set TWSUSERID=
-set TWSPASSWORD=
 set JAVA_PATH=
 set HIDE=
 
@@ -63,18 +60,6 @@ set HIDE=
 ::     filestore (they are set automatically by Windows).
 
 
-::   TRADING_MODE
-::
-::     TWS 955 introduced a new Trading Mode combo box on its login dialog. 
-::     This indicates whether the live account or the paper trading account 
-::     corresponding to the supplied credentials is to be used. The values 
-::     allowed here are 'live' and 'paper' (not case-sensitive). For earlier 
-::     versions of TWS, setting this has no effect. If no value is specified 
-::     here, the value is taken from the TradingMode setting in the 
-::     configuration file. If no value is specified there either, the value 
-::     'live' is assumed.
-
-
 ::   IBC_PATH
 ::
 ::     The folder containing the IBController files. 
@@ -101,15 +86,6 @@ set HIDE=
 ::     removing the value as show below (but this is not recommended): 
 ::
 ::     set LOG_PATH=
-
-
-::   TWSUSERID
-::   TWSPASSWORD
-::
-::     If your TWS user id and password are not included in your IBController 
-::     configuration file, you can set them here (do not encrypt the password). 
-::     However you are strongly advised not to set them here because this file 
-::     is not normally in a protected location.
 
 
 ::   JAVA_PATH

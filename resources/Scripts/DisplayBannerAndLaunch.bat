@@ -54,8 +54,7 @@ if /I "%APP%" == "GATEWAY" set GW_FLAG=/G
 
 call "%IBC_PATH%\Scripts\IBController.bat" "%TWS_MAJOR_VRSN%" %GW_FLAG% ^
      "/TwsPath:%TWS_PATH%" "/IbcPath:%IBC_PATH%" "/IbcIni:%IBC_INI%" ^
-     "/User:%TWSUSERID%" "/PW:%TWSPASSWORD%" "/FIXUser:%FIXUSERID%" "/FIXPW:%FIXPASSWORD%" ^
-     "/JavaPath:%JAVA_PATH%" "/Mode:%TRADING_MODE%" ^
+     "/JavaPath:%JAVA_PATH%" ^
      >> "%LOG_FILE%" 2>&1 || set LOGFILE_INACCESSIBLE=1
 
 if errorlevel 1 (

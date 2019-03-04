@@ -23,16 +23,11 @@ setlocal enableextensions enabledelayedexpansion
 ::=============================================================================+
 
 
-set TWS_MAJOR_VRSN=963
-set IBC_INI=%HOMEDRIVE%%HOMEPATH%\Documents\IBController\IBController.ini
-set TRADING_MODE=
-set IBC_PATH=%SYSTEMDRIVE%\IBController
+set TWS_MAJOR_VRSN=974
+set IBC_INI=%HOMEDRIVE%%HOMEPATH%\.IBController\IBController.ini
+set IBC_PATH=%SYSTEMDRIVE%\Jts\IBController
 set TWS_PATH=%SYSTEMDRIVE%\Jts
 set LOG_PATH=%IBC_PATH%\Logs
-set TWSUSERID=
-set TWSPASSWORD=
-set FIXUSERID=
-set FIXPASSWORD=
 set JAVA_PATH=
 set HIDE=
 
@@ -105,25 +100,6 @@ set HIDE=
 ::     removing the value as show below (but this is not recommended): 
 ::
 ::     set LOG_PATH=
-
-
-::   TWSUSERID
-::   TWSPASSWORD
-::
-::     If your TWS user id and password are not included in your IBController 
-::     configuration file, you can set them here (do not encrypt the password). 
-::     However you are strongly advised not to set them here because this file 
-::     is not normally in a protected location.
-
-
-::   FIXUSERID
-::   FIXPASSWORD
-::
-::     If you are running the FIX Gateway (for which you must set FIX=yes in 
-::     your IBController configuration file), and the FIX user id and password 
-::     are not included in the configuration file, you can set them here (do 
-::     not encrypt the password). However you are strongly advised not to set 
-::     them here because this file is not normally in a protected location.
 
 
 ::   JAVA_PATH
