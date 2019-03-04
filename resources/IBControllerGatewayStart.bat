@@ -23,7 +23,7 @@ setlocal enableextensions enabledelayedexpansion
 ::=============================================================================+
 
 
-set TWS_MAJOR_VRSN=974
+set TWS_MAJOR_VRSN=972
 set IBC_INI=%HOMEDRIVE%%HOMEPATH%\.IBController\IBController.ini
 set IBC_PATH=%SYSTEMDRIVE%\Jts\IBController
 set TWS_PATH=%SYSTEMDRIVE%\Jts

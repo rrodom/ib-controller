@@ -27,7 +27,6 @@ echo Usage:
 echo.
 echo IBController twsVersion [/G ^| /Gateway] [/TwsPath:twsPath] [/IbcPath:ibcPath]
 echo              [/IbcIni:ibcIni] [/JavaPath:javaPath]
-echo              [/Mode:tradingMode]
 echo.
 echo   twsVersion              The major version number for TWS
 echo.
@@ -133,21 +132,6 @@ echo /TwsPath = %TWS_PATH%
 echo /IbcPath = %IBC_PATH%
 echo /IbcIni = %IBC_INI%
 echo /JavaPath = %JAVA_PATH%
-
-if defined GOT_API_CREDENTIALS (
-	echo /User = ***
-	echo /PW = ***
-) else (
-	echo /User =
-	echo /PW =
-)
-if defined GOT_FIX_CREDENTIALS (
-	echo /FIXUser = ***
-	echo /FIXPW = ***
-) else (
-	echo /FIXUser =
-	echo /FIXPW =
-)
 echo.
 
 ::======================== Check everything ready to proceed ================
@@ -290,24 +274,13 @@ echo.
 
 ::======================== Start IBController ===============================
 
-if defined GOT_FIX_CREDENTIALS (
-	if defined GOT_API_CREDENTIALS (
-		set HIDDEN_CREDENTIALS="***" "***" "***" "***"
-	) else (
-		set HIDDEN_CREDENTIALS="***" "***"
-	)
-) else if defined GOT_API_CREDENTIALS (
-	set HIDDEN_CREDENTIALS="***" "***"
-)
-	
-
 if "%ENTRY_POINT%"=="%ENTRY_POINT_TWS%" (
 	set PROGRAM=IBController
 ) else (
 	set PROGRAM=IBGateway
 )
 echo Starting %PROGRAM% with this command:
-echo "%JAVA_PATH%\java.exe" -cp  "%IBC_CLASSPATH%" %JAVA_VM_OPTIONS% %ENTRY_POINT% "%IBC_INI%" %HIDDEN_CREDENTIALS% %MODE%
+echo "%JAVA_PATH%\java.exe" -cp  "%IBC_CLASSPATH%" %JAVA_VM_OPTIONS% %ENTRY_POINT% "%IBC_INI%" %HIDDEN_CREDENTIALS%
 echo.
 
 :: prevent other Java tools interfering with IBController
@@ -315,17 +288,7 @@ set JAVA_TOOL_OPTIONS=
 
 pushd %TWS_PATH%
 
-if defined GOT_FIX_CREDENTIALS (
-	if defined GOT_API_CREDENTIALS (
-		"%JAVA_PATH%\java.exe" -cp  "%IBC_CLASSPATH%" %JAVA_VM_OPTIONS% %ENTRY_POINT% "%IBC_INI%"
-	) else (
-		"%JAVA_PATH%\java.exe" -cp  "%IBC_CLASSPATH%" %JAVA_VM_OPTIONS% %ENTRY_POINT% "%IBC_INI%"
-	)
-) else if defined GOT_API_CREDENTIALS (
-		"%JAVA_PATH%\java.exe" -cp  "%IBC_CLASSPATH%" %JAVA_VM_OPTIONS% %ENTRY_POINT% "%IBC_INI%"
-) else (
-		"%JAVA_PATH%\java.exe" -cp  "%IBC_CLASSPATH%" %JAVA_VM_OPTIONS% %ENTRY_POINT% "%IBC_INI%"
-)
+"%JAVA_PATH%\java.exe" -cp  "%IBC_CLASSPATH%" %JAVA_VM_OPTIONS% %ENTRY_POINT% "%IBC_INI%"
 
 popd
 

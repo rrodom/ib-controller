@@ -218,6 +218,15 @@ public class IBController {
      * @throws java.lang.Exception
      */
     public static void main(final String[] args) throws Exception {
+        if (args.length == 0) {
+            Utils.logToConsole("No args");
+        } else {
+            Utils.logToConsole("Args length: " + args.length);
+          for (String arg : args) {
+              Utils.logToConsole("arg: " + arg);
+          }
+        }
+        //
         checkArguments(args);
         setupDefaultEnvironment(args, false);
         load();

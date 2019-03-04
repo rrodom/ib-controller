@@ -23,12 +23,12 @@ setlocal enableextensions enabledelayedexpansion
 ::=============================================================================+
 
 
-set TWS_MAJOR_VRSN=974
-set IBC_INI=%HOMEDRIVE%%HOMEPATH%\.IBController\IBController.ini
+set TWS_MAJOR_VRSN=972
+set IBC_INI=%HOMEDRIVE%%HOMEPATH%\.IBController\IBController.ibg.ini
 set IBC_PATH=r:\work\rarcon\projects-java\ib-controller\resources
 set TWS_PATH=%SYSTEMDRIVE%\Jts
 set LOG_PATH=%IBC_PATH%\Logs
-set JAVA_PATH=
+set JAVA_PATH=f:\servers\java8\bin
 set HIDE=
 
 

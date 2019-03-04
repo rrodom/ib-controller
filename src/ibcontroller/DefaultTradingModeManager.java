@@ -24,7 +24,7 @@ public class DefaultTradingModeManager extends TradingModeManager {
     
     public DefaultTradingModeManager() {
         fromSettings = false;
-        setTradingMode(TRADING_MODE_LIVE);
+        setTradingMode(TRADING_MODE_PAPER);
         message = "parameterless constructor (trading mode live assumed)";
     }
     
@@ -40,7 +40,7 @@ public class DefaultTradingModeManager extends TradingModeManager {
     */
     public DefaultTradingModeManager(String[] args) {
         if (args.length == 0) {
-            setTradingMode(TRADING_MODE_LIVE);
+            //setTradingMode(TRADING_MODE_PAPER);
         } else if (args.length == 2) {
             setTradingMode(args[1]);
         } else if (args.length == 4) {
