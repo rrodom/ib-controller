@@ -206,6 +206,8 @@ import java.util.concurrent.TimeUnit;
 
 public class IBController {
 
+    private IBController() { }
+
     /**
      * starts up the TWS app.
      * @param args -
@@ -215,10 +217,16 @@ public class IBController {
 	 *    If length == 2 and args[0] is "encrypt", we print out the encryption of args[1].
      * @throws java.lang.Exception
      */
-
-    private IBController() { }
-
     public static void main(final String[] args) throws Exception {
+        if (args.length == 0) {
+            Utils.logToConsole("No args");
+        } else {
+            Utils.logToConsole("Args length: " + args.length);
+          for (String arg : args) {
+              Utils.logToConsole("arg: " + arg);
+          }
+        }
+        //
         checkArguments(args);
         setupDefaultEnvironment(args, false);
         load();

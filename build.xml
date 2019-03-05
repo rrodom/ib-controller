@@ -1,12 +1,14 @@
 <project name="IBController" default="dist" basedir=".">
     <property environment="env"/>
-    <fail unless="env.TWS" message="Environment variable 'TWS' not set (set it to the fully-qualified directory name containing the TWS jar files)."/>
+    <property name="env.TWS" value="c:\Jts\974\jars"/>
+    <fail unless="env.TWS"
+          message="Environment variable 'TWS' not set (set it to the fully-qualified directory name containing the TWS jar files)."/>
 
-    <property name="ver" value="3.4.3"/>
+    <property name="ver" value="3.4.3.1"/>
     <property name="src" location="src"/>
     <property name="resources" location="resources"/>
     <property name="target" location="target"/>
-    <property name="dist"  location="dist"/>
+    <property name="dist" location="dist"/>
 
     <path id="external.classpath">
         <fileset dir="${env.TWS}" includes="**/*.jar"/>
@@ -34,9 +36,9 @@
         <copy todir="${target}/IBController" preservelastmodified="true">
             <fileset file="LICENSE.txt"/>
             <fileset dir="${resources}">
-	        <exclude name="IBControllerService/**"/>
-	    </fileset>
-	</copy>
+                <exclude name="IBControllerService/**"/>
+            </fileset>
+        </copy>
         <zip destfile="${dist}/IBController-${ver}.zip" basedir="${target}/IBController" includes="**"/>
     </target>
 </project>

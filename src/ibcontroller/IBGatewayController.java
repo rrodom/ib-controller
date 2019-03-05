@@ -23,6 +23,15 @@ import static ibcontroller.IBController.setupDefaultEnvironment;
 
 public class IBGatewayController {
     public static void main(String[] args) throws Exception {
+        if (args.length == 0) {
+            Utils.logToConsole("No args");
+        } else {
+            Utils.logToConsole("Args length: " + args.length);
+          for (String arg : args) {
+              Utils.logToConsole("arg: " + arg);
+          }
+        }
+        //
         checkArguments(args);
         setupDefaultEnvironment(args, true);
         IBController.load();
