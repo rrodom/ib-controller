@@ -27,8 +27,10 @@ final class GatewayLoginFrameHandler extends AbstractLoginHandler {
     public boolean recogniseWindow(Window window) {
         if (!(window instanceof JFrame)) return false;
 
+        String buttonName = getButtonName();
+
         return (SwingUtils.titleContains(window, "IB Gateway") &&
-                ((SwingUtils.findButton(window, "Login") != null)/* || (SwingUtils.findButton(window, "Paper Log In") != null)*/));
+                ((SwingUtils.findButton(window, buttonName) != null)));
     }
 
     @Override
@@ -99,7 +101,7 @@ final class GatewayLoginFrameHandler extends AbstractLoginHandler {
         if (Settings.settings().getBoolean("FIX", false)) {
             switchToFIX(window);
         } else {
-            switchToIBAPI(window);
+            // TODO RARO switchToIBAPI(window);
         }
     }
 

@@ -23,7 +23,7 @@ import java.awt.*;
 import java.awt.event.WindowEvent;
 
 public abstract class AbstractLoginHandler implements WindowHandler {
-    
+
     @Override
     public boolean filterEvent(Window window, int eventId) {
         switch (eventId) {
@@ -49,48 +49,49 @@ public abstract class AbstractLoginHandler implements WindowHandler {
             System.exit(1);
         }
     }
-    
+
     @Override
     public abstract boolean recogniseWindow(Window window);
-    
+
     private void doLogin(final Window window) throws IBControllerException {
-        if (SwingUtils.findButton(window, "Login") == null) throw new IBControllerException("Login button");
+        String buttonName = getButtonName();
+        if (SwingUtils.findButton(window, buttonName) == null) throw new IBControllerException(buttonName + " button");
 
         GuiDeferredExecutor.instance().execute(new Runnable() {
             @Override
             public void run() {
-                SwingUtils.clickButton(window, "Login");
+                SwingUtils.clickButton(window, buttonName);
             }
         });
     }
-    
+
     protected abstract boolean initialise(final Window window, int eventID) throws IBControllerException;
-    
+
     protected abstract boolean preLogin(final Window window, int eventID) throws IBControllerException;
-    
+
     protected abstract boolean setFields(Window window, int eventID) throws IBControllerException;
 
     protected final void setMissingCredential(final Window window, final int credentialIndex) {
         SwingUtils.findTextField(window, credentialIndex).requestFocus();
     }
 
-    protected final void setCredential(final Window window, 
-                                            final String credentialName,
-                                            final int credentialIndex, 
-                                            final String value) throws IBControllerException {
-        if (! SwingUtils.setTextField(window, credentialIndex, value)) throw new IBControllerException(credentialName);
+    protected final void setCredential(final Window window,
+                                       final String credentialName,
+                                       final int credentialIndex,
+                                       final String value) throws IBControllerException {
+        if (!SwingUtils.setTextField(window, credentialIndex, value)) throw new IBControllerException(credentialName);
     }
-    
+
     protected final void setTradingModeCombo(final Window window) {
-        if (SwingUtils.findLabel(window, "Trading Mode") != null)  {
+        if (SwingUtils.findLabel(window, "Trading Mode") != null) {
             JComboBox<?> tradingModeCombo;
             if (Settings.settings().getBoolean("FIX", false)) {
                 tradingModeCombo = SwingUtils.findComboBox(window, 1);
             } else {
                 tradingModeCombo = SwingUtils.findComboBox(window, 0);
             }
-            
-            if (tradingModeCombo != null ) {
+
+            if (tradingModeCombo != null) {
                 String tradingMode = TradingModeManager.tradingModeManager().getTradingMode();
                 Utils.logToConsole("Setting Trading mode = " + tradingMode);
                 if (tradingMode.equalsIgnoreCase(TradingModeManager.TRADING_MODE_LIVE)) {
@@ -101,5 +102,14 @@ public abstract class AbstractLoginHandler implements WindowHandler {
             }
         }
     }
-    
+
+    protected String getButtonName() {
+        String tradingMode = TradingModeManager.tradingModeManager().getTradingMode();
+        String ret = "Paper Log In";
+        if (tradingMode.equalsIgnoreCase(TradingModeManager.TRADING_MODE_LIVE)) {
+            ret = "Log In";
+        }
+        return ret;
+    }
+
 }
