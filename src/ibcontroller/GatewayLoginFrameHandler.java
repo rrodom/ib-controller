@@ -18,18 +18,17 @@
 
 package ibcontroller;
 
-import java.awt.Window;
-import javax.swing.JFrame;
-import javax.swing.JRadioButton;
+import javax.swing.*;
+import java.awt.*;
 
 final class GatewayLoginFrameHandler extends AbstractLoginHandler {
-    
+
     @Override
     public boolean recogniseWindow(Window window) {
-        if (! (window instanceof JFrame)) return false;
+        if (!(window instanceof JFrame)) return false;
 
         return (SwingUtils.titleContains(window, "IB Gateway") &&
-               (SwingUtils.findButton(window, "Login") != null));
+                ((SwingUtils.findButton(window, "Login") != null)/* || (SwingUtils.findButton(window, "Paper Log In") != null)*/));
     }
 
     @Override
@@ -38,18 +37,18 @@ final class GatewayLoginFrameHandler extends AbstractLoginHandler {
         setTradingModeCombo(window);
         return true;
     }
-    
+
     @Override
     protected final boolean preLogin(final Window window, int eventID) throws IBControllerException {
         boolean result;
         if (Settings.settings().getBoolean("FIX", false)) {
             result = setMissingFIXCredentials(window);
         } else {
-            result =setMissingIBAPICredentials(window);
+            result = setMissingIBAPICredentials(window);
         }
         return result;
     }
-    
+
     private boolean setMissingFIXCredentials(Window window) {
         boolean result = false;
         if (LoginManager.loginManager().FIXUserName().length() == 0) {
@@ -95,7 +94,7 @@ final class GatewayLoginFrameHandler extends AbstractLoginHandler {
         }
         return true;
     }
-    
+
     private void selectGatewayMode(Window window) throws IBControllerException {
         if (Settings.settings().getBoolean("FIX", false)) {
             switchToFIX(window);
@@ -103,20 +102,20 @@ final class GatewayLoginFrameHandler extends AbstractLoginHandler {
             switchToIBAPI(window);
         }
     }
-    
+
     private void switchToFIX(Window window) throws IBControllerException {
         JRadioButton button = SwingUtils.findRadioButton(window, "FIX CTCI");
         if (button == null) throw new IBControllerException("FIX CTCI radio button");
-        
-        if (! button.isSelected()) button.doClick();
+
+        if (!button.isSelected()) button.doClick();
     }
-    
+
     private void switchToIBAPI(Window window) throws IBControllerException {
         JRadioButton button = SwingUtils.findRadioButton(window, "IB API");
-        if (button == null) button = SwingUtils.findRadioButton(window, "TWS/API") ;
+        if (button == null) button = SwingUtils.findRadioButton(window, "TWS/API");
         if (button == null) throw new IBControllerException("IB API radio button");
-        
-        if (! button.isSelected()) button.doClick();
+
+        if (!button.isSelected()) button.doClick();
     }
 
 }

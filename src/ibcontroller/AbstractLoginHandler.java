@@ -18,10 +18,9 @@
 
 package ibcontroller;
 
-import java.awt.Window;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.WindowEvent;
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
 
 public abstract class AbstractLoginHandler implements WindowHandler {
     
@@ -46,6 +45,7 @@ public abstract class AbstractLoginHandler implements WindowHandler {
             doLogin(window);
         } catch (IBControllerException e) {
             Utils.logError("could not login: could not find control: " + e.getMessage());
+            Utils.logException(e);
             System.exit(1);
         }
     }

@@ -75,8 +75,9 @@ if errorlevel 1 (
 	echo +
 	echo +==============================================================================
 	echo +
-	echo + Press any key to close this window
-	pause > NUL
+::	echo + Press any key to close this window
+::	pause > NUL
+	timeout 10 > NUL
 	echo +
 ) else (
 	echo + %APP% %TWS_MAJOR_VRSN% has finished

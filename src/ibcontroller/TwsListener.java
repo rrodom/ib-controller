@@ -18,13 +18,11 @@
 
 package ibcontroller;
 
-import java.awt.AWTEvent;
-import java.awt.Window;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.AWTEventListener;
 import java.awt.event.WindowEvent;
 import java.util.List;
-import javax.swing.JDialog;
-import javax.swing.JFrame;
 
 class TwsListener
         implements AWTEventListener {
@@ -82,6 +80,8 @@ class TwsListener
 
     private void logWindow(Window window, int eventID) {
         String event = SwingUtils.windowEventToString(eventID);
+        Utils.logDebugToConsole("logWindow.window: " + window.getClass().getCanonicalName());
+        Utils.logDebugToConsole("logWindow.event: " + event);
 
         if (window instanceof JFrame) {
             Utils.logToConsole("detected frame entitled: " + ((JFrame) window).getTitle() + "; event=" + event);

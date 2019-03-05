@@ -18,18 +18,15 @@
 
 package ibcontroller;
 
-import java.awt.Container;
+import javax.swing.*;
+import javax.swing.tree.TreePath;
+import java.awt.*;
 import java.io.PrintStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
-import javax.swing.JDialog;
-import javax.swing.JMenuItem;
-import javax.swing.JTree;
-import javax.swing.SwingUtilities;
-import javax.swing.tree.TreePath;
 
 class Utils {
     
@@ -126,7 +123,11 @@ class Utils {
     static void logToConsole(String msg) {
         getOutStream().println(formatMessage(msg));
     }
-    
+
+    static void logDebugToConsole(String msg) {
+        getOutStream().println(formatMessage(msg));
+    }
+
     static PrintStream getErrStream() {
         if (sendConsoleOutputToTwsLog) {
             return System.err;
