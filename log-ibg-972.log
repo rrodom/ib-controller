@@ -1,0 +1,367 @@
+F:\servers\java8\bin\java.exe -Dvisualvm.id=172839499639371 "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019\lib\idea_rt.jar=55220:C:\Program Files\JetBrains\IntelliJ IDEA 2019\bin" -Dfile.encoding=UTF-8 -classpath F:\servers\java8\jre\lib\charsets.jar;F:\servers\java8\jre\lib\deploy.jar;F:\servers\java8\jre\lib\ext\access-bridge-64.jar;F:\servers\java8\jre\lib\ext\cldrdata.jar;F:\servers\java8\jre\lib\ext\dnsns.jar;F:\servers\java8\jre\lib\ext\jaccess.jar;F:\servers\java8\jre\lib\ext\jfxrt.jar;F:\servers\java8\jre\lib\ext\localedata.jar;F:\servers\java8\jre\lib\ext\nashorn.jar;F:\servers\java8\jre\lib\ext\sunec.jar;F:\servers\java8\jre\lib\ext\sunjce_provider.jar;F:\servers\java8\jre\lib\ext\sunmscapi.jar;F:\servers\java8\jre\lib\ext\sunpkcs11.jar;F:\servers\java8\jre\lib\ext\zipfs.jar;F:\servers\java8\jre\lib\javaws.jar;F:\servers\java8\jre\lib\jce.jar;F:\servers\java8\jre\lib\jfr.jar;F:\servers\java8\jre\lib\jfxswt.jar;F:\servers\java8\jre\lib\jsse.jar;F:\servers\java8\jre\lib\management-agent.jar;F:\servers\java8\jre\lib\plugin.jar;F:\servers\java8\jre\lib\resources.jar;F:\servers\java8\jre\lib\rt.jar;R:\work\rarcon\projects-java\ib-controller\out\production\ib-controller;C:\Jts\ibgateway\972\jars\locales.jar;C:\Jts\ibgateway\972\jars\total-2018.jar;C:\Jts\ibgateway\972\jars\log4j-api-2.5.jar;C:\Jts\ibgateway\972\jars\twslaunch-972.jar;C:\Jts\ibgateway\972\jars\jts4launch-972.jar;C:\Jts\ibgateway\972\jars\log4j-core-2.5.jar;C:\Jts\ibgateway\972\jars\twslaunch-install4j-1.8.jar ibcontroller.IBGatewayController c:\Users\raro\.IBController\IBController.ibg.ini
+2019-04-24 19:28:46:295 IBController: Args length: 1
+2019-04-24 19:28:46:296 IBController: Arg: c:\Users\raro\.IBController\IBController.ibg.ini
+2019-04-24 19:28:46:306 IBController: Properties file C:\Users\raro\Documents\IBController\IBController.ini not found
+System Properties
+------------------------------------------------------------
+java.runtime.name = Java(TM) SE Runtime Environment
+sun.boot.library.path = F:\servers\java8\jre\bin
+java.vm.version = 25.60-b23
+user.country.format = SK
+java.vm.vendor = Oracle Corporation
+java.vendor.url = http://java.oracle.com/
+path.separator = ;
+java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg = sun.io
+user.country = US
+user.script =
+sun.java.launcher = SUN_STANDARD
+sun.os.patch.level =
+java.vm.specification.name = Java Virtual Machine Specification
+user.dir = R:\work\rarcon\projects-java\ib-controller
+java.runtime.version = 1.8.0_60-b27
+java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs = F:\servers\java8\jre\lib\endorsed
+os.arch = amd64
+visualvm.id = 172839499639371
+java.io.tmpdir = Y:\Temp\
+line.separator =
+
+java.vm.specification.vendor = Oracle Corporation
+user.variant =
+os.name = Windows 8.1
+sun.jnu.encoding = Cp1252
+java.library.path = F:\servers\java8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\Program Files (x86)\Subversion\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\servers\xampp\php;C:\ProgramData\ComposerSetup\bin;d:\Program Files\nodejs\;d:\programs\Android\sdk\;d:\programs\Android\sdk\platform-tools\;d:\programs\Android\sdk\tools\;C:\Program Files\OpenVPN\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\EAC MW klient\;C:\Users\raro\AppData\Roaming\Composer\vendor\bin;C:\Users\raro\AppData\Roaming\npm;.
+java.specification.name = Java Platform API Specification
+java.class.version = 52.0
+sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+os.version = 6.3
+user.home = C:\Users\raro
+user.timezone = Europe/Prague
+java.awt.printerjob = sun.awt.windows.WPrinterJob
+file.encoding = UTF-8
+java.specification.version = 1.8
+java.class.path = F:\servers\java8\jre\lib\charsets.jar;F:\servers\java8\jre\lib\deploy.jar;F:\servers\java8\jre\lib\ext\access-bridge-64.jar;F:\servers\java8\jre\lib\ext\cldrdata.jar;F:\servers\java8\jre\lib\ext\dnsns.jar;F:\servers\java8\jre\lib\ext\jaccess.jar;F:\servers\java8\jre\lib\ext\jfxrt.jar;F:\servers\java8\jre\lib\ext\localedata.jar;F:\servers\java8\jre\lib\ext\nashorn.jar;F:\servers\java8\jre\lib\ext\sunec.jar;F:\servers\java8\jre\lib\ext\sunjce_provider.jar;F:\servers\java8\jre\lib\ext\sunmscapi.jar;F:\servers\java8\jre\lib\ext\sunpkcs11.jar;F:\servers\java8\jre\lib\ext\zipfs.jar;F:\servers\java8\jre\lib\javaws.jar;F:\servers\java8\jre\lib\jce.jar;F:\servers\java8\jre\lib\jfr.jar;F:\servers\java8\jre\lib\jfxswt.jar;F:\servers\java8\jre\lib\jsse.jar;F:\servers\java8\jre\lib\management-agent.jar;F:\servers\java8\jre\lib\plugin.jar;F:\servers\java8\jre\lib\resources.jar;F:\servers\java8\jre\lib\rt.jar;R:\work\rarcon\projects-java\ib-controller\out\production\ib-controller;C:\Jts\ibgateway\972\jars\locales.jar;C:\Jts\ibgateway\972\jars\total-2018.jar;C:\Jts\ibgateway\972\jars\log4j-api-2.5.jar;C:\Jts\ibgateway\972\jars\twslaunch-972.jar;C:\Jts\ibgateway\972\jars\jts4launch-972.jar;C:\Jts\ibgateway\972\jars\log4j-core-2.5.jar;C:\Jts\ibgateway\972\jars\twslaunch-install4j-1.8.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019\lib\idea_rt.jar
+user.name = raro
+java.vm.specification.version = 1.8
+sun.java.command = ibcontroller.IBGatewayController c:\Users\raro\.IBController\IBController.ibg.ini
+java.home = F:\servers\java8\jre
+sun.arch.data.model = 64
+user.language = en
+java.specification.vendor = Oracle Corporation
+user.language.format = sk
+awt.toolkit = sun.awt.windows.WToolkit
+java.vm.info = mixed mode
+java.version = 1.8.0_60
+java.ext.dirs = F:\servers\java8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+sun.boot.class.path = F:\servers\java8\jre\lib\resources.jar;F:\servers\java8\jre\lib\rt.jar;F:\servers\java8\jre\lib\sunrsasign.jar;F:\servers\java8\jre\lib\jsse.jar;F:\servers\java8\jre\lib\jce.jar;F:\servers\java8\jre\lib\charsets.jar;F:\servers\java8\jre\lib\jfr.jar;F:\servers\java8\jre\classes
+java.vendor = Oracle Corporation
+file.separator = \
+java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+sun.io.unicode.encoding = UnicodeLittle
+sun.cpu.endian = little
+sun.desktop = windows
+sun.cpu.isalist = amd64
+------------------------------------------------------------
+2019-04-24 19:28:46:313 IBController: Using default settings provider: ini file is c:\Users\raro\.IBController\IBController.ibg.ini
+2019-04-24 19:28:46:314 IBController: Using default login manager: getting username and password from args but not found. Will get from settings
+2019-04-24 19:28:46:314 IBController: Using default config dialog manager: constructor parameter isGateway=true
+2019-04-24 19:28:46:314 IBController: Using default trading mode manager: constructor parameter args but trading mode not present - will be taken from settings
+2019-04-24 19:28:46:316 IBController: Using default config dialog manager
+2019-04-24 19:28:46:325 IBController: IBControllerServer is starting with port 4003
+2019-04-24 19:28:46:327 IBController: IBControllerServer listening on address: 127.0.0.1 port: 4003
+2019-04-24 19:28:46:327 IBController: IBControllerServer started and is ready to accept commands
+2019-04-24 19:28:46:554 IBController: TWS Settings directory is: c:\Jts\Store\972_ibg_demo
+2019-04-24 19:28:46:557 IBController: Ensuring c:\Jts\Store\972_ibg_demo\jts.ini contains required minimal lines
+2019-04-24 19:28:46:558 IBController: Found section: [Logon]
+2019-04-24 19:28:46:558 IBController: Can't find setting: s3store=false
+2019-04-24 19:28:46:558 IBController: Found section: [Logon]
+2019-04-24 19:28:46:559 IBController: Found setting: s3store=true
+2019-04-24 19:28:46:559 IBController: Found section: [IBGateway]
+2019-04-24 19:28:46:559 IBController: Found setting: ApiOnly=true
+2019-04-24 19:28:46:559 IBController: Confirmed c:\Jts\Store\972_ibg_demo\jts.ini contains required minimal lines
+2019-04-24 19:28:50:837 IBController: Detected frame entitled: IB Gateway; event=Activated
+2019-04-24 19:28:50:846 IBController: Detected frame entitled: IB Gateway; event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(twslaunch.jclient.bg)
+|   |   |   |   |   null(javax.swing.JLabel){JLabel: SIMULATED TRADING}
+|   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   null(javax.swing.JLabel){JLabel: Select API type}
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(javax.swing.JRadioButton){JRadioButton: FIX CTCI}
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(javax.swing.JRadioButton){JRadioButton: IB API}
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   null(twslaunch.trader.order.entry.a)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: User name}
+|   |   |   |   |   |   null(twslaunch.trader.common.document.s){JTextField: }
+|   |   |   |   |   |   null(twslaunch.jutils.inputmethod.k){JLabel: Change input method}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Password}
+|   |   |   |   |   |   null(javax.swing.JPasswordField){JTextField: }
+|   |   |   |   |   |   null(twslaunch.jutils.inputmethod.k){JLabel: Change input method}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Trading Mode}
+|   |   |   |   |   |   null(javax.swing.JComboBox){JComboBox: }
+|   |   |   |   |   |   |   null(javax.swing.plaf.metal.MetalComboBoxButton){JButton: }
+|   |   |   |   |   |   |   null(javax.swing.CellRendererPane)
+|   |   |   |   |   |   |   |   null(javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource){JLabel: Paper Trading}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Color Palette}
+|   |   |   |   |   |   null(javax.swing.JComboBox){JComboBox: }
+|   |   |   |   |   |   |   null(javax.swing.plaf.metal.MetalComboBoxButton){JButton: }
+|   |   |   |   |   |   |   null(javax.swing.CellRendererPane)
+|   |   |   |   |   |   |   |   null(javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource){JLabel: classic}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Settings directory}
+|   |   |   |   |   |   null(javax.swing.JTextField){JTextField: c:\Jts\Store\972_ibg_demo}
+|   |   |   |   |   |   null(javax.swing.JButton){JButton: Browse...}
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Please enter username and password.}
+|   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   null(javax.swing.Box)
+|   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   null(twslaunch.jclient.bf)
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 1}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 2}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 3}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 4}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 5}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 6}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 7}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 8}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 9}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 0}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: q}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: w}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: e}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: r}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: t}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: y}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: u}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: i}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: o}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: p}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: a}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: s}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: d}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: f}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: g}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: h}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: j}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: k}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: l}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bc){JLabel: }
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: z}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: x}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: c}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: v}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: b}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: n}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: m}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: ,}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: .}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bc){JLabel: }
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: !}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: @}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: #}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: $}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: %}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: ^}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: &}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: *}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: (}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: )}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: {}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: }}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: [}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: ]}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: '}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: \}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: |}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: <}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: >}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: ?}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: +}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: -}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: =}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: _}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: :}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: ;}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: "}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: /}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: ~}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bc){JLabel: }
+|   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(twslaunch.jclient.bd)
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(javax.swing.JTextPane)
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: null}
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(javax.swing.JButton)[Disabled]{JButton: Login}
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(javax.swing.JButton){JButton: Close}
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(twslaunch.jclient.bh)
+|   |   |   |   |   |   null(twslaunch.trader.common.z)
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   null(twslaunch.jclient.bg)
+|   |   |   |   |   null(javax.swing.JLabel){JLabel: SIMULATED TRADING}
+|   |   null(jtscomponents.plaf.dT)
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: IB Gateway}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dy){JButton: }
+|   |   |   null(jtscomponents.plaf.dR)
+|   |   |   |   null(jtscomponents.plaf.dO){JLabel: }
+|   |   |   Close(jtscomponents.plaf.dm){JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dn){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dm){JButton: }
+
+
+2019-04-24 19:28:50:851 IBController: Trading mode from settings: tradingMode=paper
+2019-04-24 19:28:50:851 IBController: Setting Trading mode = paper
+2019-04-24 19:28:50:890 IBController: Click button: Login
+2019-04-24 19:28:51:631 IBController: Detected frame entitled: IB Gateway.  API Account: d0h3gyu9h; event=Activated
+2019-04-24 19:28:51:636 IBController: Detected frame entitled: IB Gateway.  API Account: d0h3gyu9h; event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(ibgateway.aA)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Purpose}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Status}
+|   |   |   |   |   null(ibgateway.az)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Interactive Brokers API Server}
+|   |   |   |   |   |   null(feature.farm.v)
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: disconnected}
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(jclient.p8)
+|   |   |   |   null(ibgateway.ay)
+|   |   |   |   |   null(ibgateway.ax)
+|   |   |   |   |   |   null(trader.common.tag.k)[Disabled]{JCheckBox: Show log}
+|   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   null(trader.common.tag.k)[Disabled]{JCheckBox: Show API messages}
+|   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   null(jutils.d2)
+|   |   |   |   |   |   null(jutils.d2)
+|   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JTabbedPane)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(trader.common.tag.j){JButton: Clear}
+|   |   null(jtscomponents.plaf.dT)
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: IB Gateway.  API Account: d0h3gyu9h}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dy){JButton: }
+|   |   |   null(jtscomponents.plaf.dR)
+|   |   |   |   null(jtscomponents.plaf.dO){JLabel: }
+|   |   |   Close(jtscomponents.plaf.dm){JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dn){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dm){JButton: }
+|   |   |   null(jtscomponents.iy){JMenuBar: null}
+|   |   |   |   File
+|   |   |   |   |   Gateway Logs
+|   |   |   |   |   Close
+|   |   |   |   Configure
+|   |   |   |   |   Settings[Disabled]
+|   |   |   |   |   Automatic Encryption
+|   |   |   |   Help
+|   |   |   |   |   About IB Gateway
+
+
+2019-04-24 19:28:51:636 IBController: Found Gateway main window
+2019-04-24 19:28:52:056 IBController: Detected frame entitled: Authenticating...; event=Activated
+2019-04-24 19:28:52:070 IBController: Detected frame entitled: Authenticating...; event=Opened
+
+null(twslaunch.feature.welcome.I)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(javax.swing.Box)
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(twslaunch.feature.welcome.G){JButton: null}
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(twslaunch.feature.welcome.G){JButton: null}
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Logging in d0h3gyu9h}
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.JTextPane)
+|   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: No internet connectivity, check your network connection}
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JProgressBar)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Authenticating...}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Build 972.1p Aug 17 2018 10:58:43 AM}
+
+
+LogModuleConfigurator-Init: Log4j Ver2.x found on classpath
+LogModuleConfigurator-Init: LogModuleConfigurator initialized with Log4j Verd.x
+2019-04-24 19:28:57:765 IBController: Detected frame entitled: IB Gateway.  API Account: d0h3gyu9h; event=Activated
+2019-04-24 19:28:57:768 IBController: Detected frame entitled: Starting application...; event=Closed
+2019-04-24 19:28:57:923 IBController: Detected dialog entitled: Warning; event=Activated
+2019-04-24 19:28:57:925 IBController: Detected dialog entitled: Warning; event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(javax.swing.JLabel){JLabel: null}
+|   |   |   |   null(javax.swing.JLabel){JLabel: <html>This is not a brokerage account. <br>This is a "paper" trading account in which you <br>can engage in simulated trading. <br><br>Please confirm that you understand and wish <br>to conduct simulated trading before proceeding.</html>}
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(trader.common.tag.j){JButton: I understand and accept}
+|   |   null(javax.swing.JPanel)
+|   |   |   null(jtscomponents.plaf.dV)
+|   |   null(jtscomponents.plaf.dT)
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: Warning}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dy){JButton: }
+|   |   |   null(jtscomponents.plaf.dR)
+|   |   |   |   null(jtscomponents.plaf.dO){JLabel: }
+|   |   |   Close(jtscomponents.plaf.dm)[Disabled]{JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dn){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dm)[Disabled]{JButton: }
+
+
+2019-04-24 19:28:57:926 IBController: Click button: I understand and accept
+2019-04-24 19:28:58:060 IBController: Detected frame entitled: IB Gateway.  API Account: d0h3gyu9h; event=Activated
+2019-04-24 19:28:58:061 IBController: Detected dialog entitled: Warning; event=Closed
+2019-04-24 19:29:06:086 IBController: Detected frame entitled: IB Gateway.  API Account: d0h3gyu9h; event=Closing
+Jolt logger configuration is done.
+2019-04-24 19:29:07,087 JTS-ShutdownTask-Shutdown_IA-82 ERROR Attempted to append to non-started appender d
+2019-04-24 19:29:07,089 NIA-Input-Queue-2 ERROR Attempted to append to non-started appender d
+2019-04-24 19:29:07,091 NIA-Input-Queue-2 ERROR Attempted to append to non-started appender d
+2019-04-24 19:29:07,239 NIA-Input-Queue-2 ERROR Attempted to append to non-started appender d
+
+Process finished with exit code 0

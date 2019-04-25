@@ -18,8 +18,8 @@
 
 package ibcontroller;
 
-import java.awt.Window;
-import javax.swing.JFrame;
+import javax.swing.*;
+import java.awt.*;
 
 final class LoginFrameHandler extends AbstractLoginHandler {
 
@@ -32,7 +32,7 @@ final class LoginFrameHandler extends AbstractLoginHandler {
         // entitled Login, when it's trying to reconnect
         return ((SwingUtils.titleEquals(window, "New Login") ||
                 SwingUtils.titleEquals(window, "Login")) &&
-                SwingUtils.findButton(window, "Login") != null);
+                (SwingUtils.findButton(window, "Login") != null || SwingUtils.findButton(window, "Paper Log In") != null));
     }
 
     @Override

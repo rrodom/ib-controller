@@ -1,0 +1,929 @@
+F:\servers\java8\bin\java.exe -Dvisualvm.id=173227445052386 "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019\lib\idea_rt.jar=55326:C:\Program Files\JetBrains\IntelliJ IDEA 2019\bin" -Dfile.encoding=UTF-8 -classpath F:\servers\java8\jre\lib\charsets.jar;F:\servers\java8\jre\lib\deploy.jar;F:\servers\java8\jre\lib\ext\access-bridge-64.jar;F:\servers\java8\jre\lib\ext\cldrdata.jar;F:\servers\java8\jre\lib\ext\dnsns.jar;F:\servers\java8\jre\lib\ext\jaccess.jar;F:\servers\java8\jre\lib\ext\jfxrt.jar;F:\servers\java8\jre\lib\ext\localedata.jar;F:\servers\java8\jre\lib\ext\nashorn.jar;F:\servers\java8\jre\lib\ext\sunec.jar;F:\servers\java8\jre\lib\ext\sunjce_provider.jar;F:\servers\java8\jre\lib\ext\sunmscapi.jar;F:\servers\java8\jre\lib\ext\sunpkcs11.jar;F:\servers\java8\jre\lib\ext\zipfs.jar;F:\servers\java8\jre\lib\javaws.jar;F:\servers\java8\jre\lib\jce.jar;F:\servers\java8\jre\lib\jfr.jar;F:\servers\java8\jre\lib\jfxswt.jar;F:\servers\java8\jre\lib\jsse.jar;F:\servers\java8\jre\lib\management-agent.jar;F:\servers\java8\jre\lib\plugin.jar;F:\servers\java8\jre\lib\resources.jar;F:\servers\java8\jre\lib\rt.jar;R:\work\rarcon\projects-java\ib-controller\out\production\ib-controller;C:\Jts\972\jars\locales.jar;C:\Jts\972\jars\total-2018.jar;C:\Jts\972\jars\log4j-api-2.5.jar;C:\Jts\972\jars\twslaunch-972.jar;C:\Jts\972\jars\jts4launch-972.jar;C:\Jts\972\jars\log4j-core-2.5.jar;C:\Jts\972\jars\twslaunch-install4j-1.8.jar ibcontroller.IBController c:\Users\raro\.IBController\IBController.ib.ini
+2019-04-24 19:35:14:311 IBController: Args length: 1
+2019-04-24 19:35:14:312 IBController: Arg: c:\Users\raro\.IBController\IBController.ib.ini
+2019-04-24 19:35:14:318 IBController: Properties file C:\Users\raro\Documents\IBController\IBController.ini not found
+System Properties
+------------------------------------------------------------
+java.runtime.name = Java(TM) SE Runtime Environment
+sun.boot.library.path = F:\servers\java8\jre\bin
+java.vm.version = 25.60-b23
+user.country.format = SK
+java.vm.vendor = Oracle Corporation
+java.vendor.url = http://java.oracle.com/
+path.separator = ;
+java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg = sun.io
+user.country = US
+user.script =
+sun.java.launcher = SUN_STANDARD
+sun.os.patch.level =
+java.vm.specification.name = Java Virtual Machine Specification
+user.dir = R:\work\rarcon\projects-java\ib-controller
+java.runtime.version = 1.8.0_60-b27
+java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs = F:\servers\java8\jre\lib\endorsed
+os.arch = amd64
+visualvm.id = 173227445052386
+java.io.tmpdir = Y:\Temp\
+line.separator =
+
+java.vm.specification.vendor = Oracle Corporation
+user.variant =
+os.name = Windows 8.1
+sun.jnu.encoding = Cp1252
+java.library.path = F:\servers\java8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\Program Files (x86)\Subversion\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\servers\xampp\php;C:\ProgramData\ComposerSetup\bin;d:\Program Files\nodejs\;d:\programs\Android\sdk\;d:\programs\Android\sdk\platform-tools\;d:\programs\Android\sdk\tools\;C:\Program Files\OpenVPN\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\EAC MW klient\;C:\Users\raro\AppData\Roaming\Composer\vendor\bin;C:\Users\raro\AppData\Roaming\npm;.
+java.specification.name = Java Platform API Specification
+java.class.version = 52.0
+sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+os.version = 6.3
+user.home = C:\Users\raro
+user.timezone = Europe/Prague
+java.awt.printerjob = sun.awt.windows.WPrinterJob
+file.encoding = UTF-8
+java.specification.version = 1.8
+java.class.path = F:\servers\java8\jre\lib\charsets.jar;F:\servers\java8\jre\lib\deploy.jar;F:\servers\java8\jre\lib\ext\access-bridge-64.jar;F:\servers\java8\jre\lib\ext\cldrdata.jar;F:\servers\java8\jre\lib\ext\dnsns.jar;F:\servers\java8\jre\lib\ext\jaccess.jar;F:\servers\java8\jre\lib\ext\jfxrt.jar;F:\servers\java8\jre\lib\ext\localedata.jar;F:\servers\java8\jre\lib\ext\nashorn.jar;F:\servers\java8\jre\lib\ext\sunec.jar;F:\servers\java8\jre\lib\ext\sunjce_provider.jar;F:\servers\java8\jre\lib\ext\sunmscapi.jar;F:\servers\java8\jre\lib\ext\sunpkcs11.jar;F:\servers\java8\jre\lib\ext\zipfs.jar;F:\servers\java8\jre\lib\javaws.jar;F:\servers\java8\jre\lib\jce.jar;F:\servers\java8\jre\lib\jfr.jar;F:\servers\java8\jre\lib\jfxswt.jar;F:\servers\java8\jre\lib\jsse.jar;F:\servers\java8\jre\lib\management-agent.jar;F:\servers\java8\jre\lib\plugin.jar;F:\servers\java8\jre\lib\resources.jar;F:\servers\java8\jre\lib\rt.jar;R:\work\rarcon\projects-java\ib-controller\out\production\ib-controller;C:\Jts\972\jars\locales.jar;C:\Jts\972\jars\total-2018.jar;C:\Jts\972\jars\log4j-api-2.5.jar;C:\Jts\972\jars\twslaunch-972.jar;C:\Jts\972\jars\jts4launch-972.jar;C:\Jts\972\jars\log4j-core-2.5.jar;C:\Jts\972\jars\twslaunch-install4j-1.8.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019\lib\idea_rt.jar
+user.name = raro
+java.vm.specification.version = 1.8
+sun.java.command = ibcontroller.IBController c:\Users\raro\.IBController\IBController.ib.ini
+java.home = F:\servers\java8\jre
+sun.arch.data.model = 64
+user.language = en
+java.specification.vendor = Oracle Corporation
+user.language.format = sk
+awt.toolkit = sun.awt.windows.WToolkit
+java.vm.info = mixed mode
+java.version = 1.8.0_60
+java.ext.dirs = F:\servers\java8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+sun.boot.class.path = F:\servers\java8\jre\lib\resources.jar;F:\servers\java8\jre\lib\rt.jar;F:\servers\java8\jre\lib\sunrsasign.jar;F:\servers\java8\jre\lib\jsse.jar;F:\servers\java8\jre\lib\jce.jar;F:\servers\java8\jre\lib\charsets.jar;F:\servers\java8\jre\lib\jfr.jar;F:\servers\java8\jre\classes
+java.vendor = Oracle Corporation
+file.separator = \
+java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+sun.io.unicode.encoding = UnicodeLittle
+sun.cpu.endian = little
+sun.desktop = windows
+sun.cpu.isalist = amd64
+------------------------------------------------------------
+2019-04-24 19:35:14:325 IBController: Using default settings provider: ini file is c:\Users\raro\.IBController\IBController.ib.ini
+2019-04-24 19:35:14:326 IBController: Using default login manager: getting username and password from args but not found. Will get from settings
+2019-04-24 19:35:14:326 IBController: Using default config dialog manager: constructor parameter isGateway=false
+2019-04-24 19:35:14:326 IBController: Using default trading mode manager: constructor parameter args but trading mode not present - will be taken from settings
+2019-04-24 19:35:14:329 IBController: Using default config dialog manager
+2019-04-24 19:35:14:339 IBController: IBControllerServer is starting with port 4001
+2019-04-24 19:35:14:642 IBController: TWS Settings directory is: c:\Jts\Store\972_ib_demo
+2019-04-24 19:35:14:645 IBController: Ensuring c:\Jts\Store\972_ib_demo\jts.ini contains required minimal lines
+2019-04-24 19:35:14:645 IBController: Found section: [Logon]
+2019-04-24 19:35:14:645 IBController: Can't find setting: s3store=false
+2019-04-24 19:35:14:646 IBController: Found section: [Logon]
+2019-04-24 19:35:14:646 IBController: Found setting: s3store=true
+2019-04-24 19:35:14:646 IBController: Found section: [IBGateway]
+2019-04-24 19:35:14:646 IBController: Found setting: ApiOnly=true
+2019-04-24 19:35:14:646 IBController: Confirmed c:\Jts\Store\972_ib_demo\jts.ini contains required minimal lines
+2019-04-24 19:35:15:447 IBController: IBControllerServer listening on addresses: 127.0.0.1,0:0:0:0:0:0:0:1,fe80:0:0:0:c77:9978:1ba0:460b%wlan0,192.168.1.35,fe80:0:0:0:78c9:341d:b966:84c0%eth1,fe80:0:0:0:3c9f:c086:fb15:4453%eth2,fe80:0:0:0:e0db:913d:a027:9254%eth4,169.254.29.237,fe80:0:0:0:1d3f:7c9f:9f2a:1ded%eth5,fe80:0:0:0:0:5efe:a9fe:1ded%net1,fe80:0:0:0:6494:3827:9796:74cb%wlan1,fe80:0:0:0:0:5efe:a9fe:b1d8%net2,fe80:0:0:0:0:5efe:a9fe:fe6f%net3,169.254.177.216,fe80:0:0:0:94c7:6a13:35c2:b1d8%eth6,169.254.254.111,fe80:0:0:0:8947:d35d:60fe:fe6f%eth7; port: 4001
+2019-04-24 19:35:15:447 IBController: IBControllerServer started and is ready to accept commands
+2019-04-24 19:35:20:535 IBController: Detected frame entitled: Login; event=Activated
+2019-04-24 19:35:20:549 IBController: Detected frame entitled: Login; event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(twslaunch.jclient.bg)
+|   |   |   |   |   null(javax.swing.JLabel){JLabel: SIMULATED TRADING}
+|   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: User name}
+|   |   |   |   |   |   null(twslaunch.trader.common.document.s){JTextField: }
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(twslaunch.jutils.inputmethod.k){JLabel: Change input method}
+|   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: null}
+|   |   |   |   |   |   |   null(javax.swing.JTextPane)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Password}
+|   |   |   |   |   |   null(javax.swing.JPasswordField){JTextField: }
+|   |   |   |   |   |   null(twslaunch.jutils.inputmethod.l)
+|   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Caps lock is on}
+|   |   |   |   |   |   |   null(twslaunch.jutils.inputmethod.k){JLabel: Change input method}
+|   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Trading Mode}
+|   |   |   |   |   |   null(javax.swing.JComboBox){JComboBox: }
+|   |   |   |   |   |   |   null(javax.swing.plaf.metal.MetalComboBoxButton){JButton: }
+|   |   |   |   |   |   |   null(javax.swing.CellRendererPane)
+|   |   |   |   |   |   |   |   null(javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource){JLabel: Paper Trading}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Color Palette}
+|   |   |   |   |   |   null(javax.swing.JComboBox){JComboBox: }
+|   |   |   |   |   |   |   null(javax.swing.plaf.metal.MetalComboBoxButton){JButton: }
+|   |   |   |   |   |   |   null(javax.swing.CellRendererPane)
+|   |   |   |   |   |   |   |   null(javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource){JLabel: dark}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.JCheckBox){JCheckBox: Use/store settings on server}
+|   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   null(twslaunch.jtscomponents.M){JLabel: null}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.JCheckBox){JCheckBox: Use SSL}
+|   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   null(twslaunch.jtscomponents.M){JLabel: null}
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: <html><b>*</b> Do you want to be contacted by Interactive Brokers <br>about features, products and offers?</html>}
+|   |   |   |   |   |   |   null(javax.swing.JRadioButton){JRadioButton: Yes}
+|   |   |   |   |   |   |   null(javax.swing.JRadioButton){JRadioButton: No}
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Please enter username and password.}
+|   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   null(javax.swing.Box)
+|   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   null(twslaunch.jclient.bf)
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 1}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 2}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 3}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 4}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 5}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 6}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 7}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 8}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 9}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: 0}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: q}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: w}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: e}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: r}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: t}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: y}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: u}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: i}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: o}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: p}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: a}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: s}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: d}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: f}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: g}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: h}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: j}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: k}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: l}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bc){JLabel: }
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: z}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: x}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: c}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: v}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: b}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: n}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: m}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: ,}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: .}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bc){JLabel: }
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: !}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: @}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: #}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: $}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: %}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: ^}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: &}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: *}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: (}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: )}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: {}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: }}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: [}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: ]}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: '}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: \}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: |}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: <}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: >}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: ?}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: +}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: -}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: =}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: _}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: :}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: ;}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: "}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: /}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bb){JLabel: ~}
+|   |   |   |   |   |   |   |   |   null(twslaunch.jclient.bc){JLabel: }
+|   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(twslaunch.jclient.bd)
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(javax.swing.JTextPane)
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: null}
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(javax.swing.JButton)[Disabled]{JButton: Login}
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(javax.swing.JButton){JButton: Cancel}
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(twslaunch.jclient.bh)
+|   |   |   |   |   |   null(twslaunch.trader.common.z)
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   null(twslaunch.jclient.bg)
+|   |   |   |   |   null(javax.swing.JLabel){JLabel: SIMULATED TRADING}
+|   |   null(jtscomponents.plaf.dT)
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: Login}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dy){JButton: }
+|   |   |   null(jtscomponents.plaf.dR)
+|   |   |   |   null(jtscomponents.plaf.dO){JLabel: }
+|   |   |   Close(jtscomponents.plaf.dm){JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dn){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dm){JButton: }
+
+
+2019-04-24 19:35:20:566 IBController: Trading mode from settings: tradingMode=paper
+2019-04-24 19:35:20:567 IBController: Setting Trading mode = paper
+2019-04-24 19:35:20:614 IBController: Detected frame entitled: Login; event=Activated
+2019-04-24 19:35:20:725 IBController: Click button: Login
+2019-04-24 19:35:21:166 IBController: Button now disabled: Login
+2019-04-24 19:35:21:707 IBController: Detected frame entitled: Authenticating...; event=Activated
+2019-04-24 19:35:21:720 IBController: Detected frame entitled: Authenticating...; event=Opened
+
+null(twslaunch.feature.welcome.I)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(javax.swing.Box)
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(twslaunch.feature.welcome.G){JButton: null}
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(twslaunch.feature.welcome.G){JButton: null}
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(twslaunch.feature.welcome.F){JButton: Learn More}
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Logging in d0h3gyu9h}
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.JTextPane)
+|   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: No internet connectivity, check your network connection}
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JProgressBar)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Authenticating...}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Build 972.1p Aug 17 2018 10:58:43 AM}
+
+
+2019-04-24 19:35:25:045 IBController: Detected dialog entitled: Downloading settings from server; event=Closed
+Jolt logger configuration is done.
+LogModuleConfigurator-Init: Log4j Ver2.x found on classpath
+LogModuleConfigurator-Init: LogModuleConfigurator initialized with Log4j Verd.x
+2019-04-24 19:35:57:358 IBController: Detected frame entitled: DU1288025 Interactive Brokers (Simulated Trading); event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(feature.tabs.bg)
+|   |   |   |   |   null(feature.tabs.bf)
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(feature.desktop.b1)
+|   |   |   |   |   |   |   |   null(feature.desktop.bP)
+|   |   |   |   |   |   |   null(feature.desktop.b1)
+|   |   |   |   |   |   |   |   null(feature.desktop.bP)
+|   |   |   |   |   |   |   |   null(feature.tabs.be)
+|   |   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   |   null(feature.mainwin.B)
+|   |   |   |   |   |   |   |   |   |   |   null(feature.mainwin.F)
+|   |   |   |   |   |   |   |   |   |   |   |   null(jclient.qT)
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aD)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.ao){JButton: Order}
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aI)
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aD)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.ao){JButton: Account}
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aD)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.ao){JButton: Trade Log}
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aI)
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aD)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.ao){JButton: BookTrader}
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aD)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.ao){JButton: OptionTrader}
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aD)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.ao){JButton: Risk Navigator}
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aD)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.ao){JButton: Alerts}
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aD)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.ao){JButton: FXTrader}
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aI)
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aD)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.ao){JButton: Chart}
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aD)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.ao){JButton: News}
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.al){JButton: }
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aI)
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aD)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.ao){JButton: Configure}
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(trader.common.dD)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aj){JButton: }
+|   |   |   |   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jclient.readonly.C)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(javax.swing.JButton){JButton: Trading Login}
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(feature.font.ui.m){JButton: AA}
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jclient.p3){JButton: Contact Us }
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Switch workspace layout between locked and design mode(jtscomponents.plaf.dv){JButton: Switch workspace layout between locked and design mode}
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtscomponents.iS)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(feature.desktop.bV){JLabel: }
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jtscomponents.iS)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(jclient.qn){JLabel: 19:35:56}
+|   |   |   |   |   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   |   |   |   |   null(feature.mainwin.C)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtscomponents.h_){JLabel: }
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   null(feature.search.ui.ad)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   null(feature.search.ui.ae){JTextField:  Help / Ticker Lookup}
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.aG)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   null(jtoolbar.am){JButton: }
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Group windows(jtscomponents.hc){JButton: }
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(feature.tabs.bk)
+|   |   |   |   |   |   |   |   null(jtscomponents.plaf.blade.aa)
+|   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   |   null(feature.tabs.bh)
+|   |   |   |   |   |   |   |   |   |   null(jtscomponents.plaf.blade.Y)
+|   |   |   |   |   |   |   |   |   |   |   null(jtscomponents.plaf.blade.P){JLabel: Mosaic}
+|   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   |   null(feature.tabs.bh)
+|   |   |   |   |   |   |   |   |   |   null(jtscomponents.plaf.blade.Y)
+|   |   |   |   |   |   |   |   |   |   |   null(jtscomponents.plaf.blade.P){JLabel: Classic TWS}
+|   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   |   null(feature.tabs.bi)
+|   |   |   |   |   |   |   |   |   |   null(jtscomponents.plaf.blade.X)
+|   |   |   |   |   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel:   }
+|   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(feature.desktop.b2)
+|   |   |   |   |   |   |   |   |   null(feature.desktop.bN){JButton: }
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   |   null(feature.mainwin.D)
+|   |   |   |   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Workspace:}
+|   |   |   |   |   |   |   |   |   |   null(jtscomponents.workspacecombo.i){JComboBox: }
+|   |   |   |   |   |   |   |   |   |   |   null(javax.swing.plaf.metal.MetalComboBoxButton){JButton: }
+|   |   |   |   |   |   |   |   |   |   |   null(javax.swing.CellRendererPane)
+|   |   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   |   |   null(jtscomponents.plaf.dz){JButton: }
+|   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   null(javax.swing.JPanel)
+|   |   |   null(jtscomponents.plaf.dV)
+|   |   null(jtscomponents.plaf.dT)
+|   |   |   null(javax.swing.JLabel){JLabel: Interactive Brokers}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dy){JButton: }
+|   |   |   null(jtscomponents.plaf.dR)
+|   |   |   |   null(jtscomponents.plaf.dN){JLabel: DU1288025 }
+|   |   |   Close(jtscomponents.plaf.dm){JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dn){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dm){JButton: }
+|   |   |   Keep window on top(trader.common.dN)
+|   |   |   null(javax.swing.JLabel){JLabel: null}
+|   |   |   null(jtscomponents.plaf.dU)
+|   |   |   |   Data(jtscomponents.plaf.du){JButton: DATA}
+|   |   |   |   Bulletin(jtscomponents.plaf.dt){JButton: BULLETIN}
+|   |   |   null(jclient.p5){JButton: }
+|   |   |   null(feature.activityindicator.E)
+|   |   |   |   null(jtscomponents.iK)
+|   |   |   |   |   null(jtscomponents.g5){JButton: 0}
+|   |   |   |   |   null(javax.swing.JButton){JButton: Orders}
+|   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   null(jtscomponents.iK)
+|   |   |   |   |   null(jtscomponents.g5){JButton: 0}
+|   |   |   |   |   null(javax.swing.JButton){JButton: Trades}
+|   |   |   null(jtscomponents.iy){JMenuBar: null}
+|   |   |   |   File
+|   |   |   |   |   Import/Export
+|   |   |   |   |   |   Import Financial Instruments...
+|   |   |   |   |   |   Export Financial Instruments...
+|   |   |   |   |   |   Export Page in Legacy Excel Format...
+|   |   |   |   |   |   Export Page Content...
+|   |   |   |   |   |
+|   |   |   |   |   New Window Group
+|   |   |   |   |   |   Create New Window Group
+|   |   |   |   |   |   Templates[Disabled]
+|   |   |   |   |   |   Mosaic
+|   |   |   |   |   |   Classic TWS
+|   |   |   |   |   |
+|   |   |   |   |   Open Layout Library...
+|   |   |   |   |   Open Saved Chart...
+|   |   |   |   |   Save Settings
+|   |   |   |   |   Save Settings As...
+|   |   |   |   |   Settings Recovery...
+|   |   |   |   |   Print...
+|   |   |   |   |   Lock Application
+|   |   |   |   |   Close Window
+|   |   |   |   |   Exit
+|   |   |   |   |
+|   |   |   |   Edit
+|   |   |   |   |   Cut
+|   |   |   |   |   Copy
+|   |   |   |   |   Paste
+|   |   |   |   |   Insert Row
+|   |   |   |   |   Delete Row
+|   |   |   |   |   Create Group Header
+|   |   |   |   |   Mutual Fund Selector
+|   |   |   |   |   Mutual Fund/ETF Replicator
+|   |   |   |   |   Treasury Bond Selector
+|   |   |   |   |   Financial Instrument Description Detail
+|   |   |   |   |   Check CUSIP...
+|   |   |   |   |   Dividend Schedule...
+|   |   |   |   |   Global Configuration...
+|   |   |   |   |
+|   |   |   |   Trade
+|   |   |   |   |   Buy
+|   |   |   |   |   Sell
+|   |   |   |   |   Close Selected Positions
+|   |   |   |   |   |   100 %
+|   |   |   |   |   |   75 %
+|   |   |   |   |   |   50 %
+|   |   |   |   |   |   25 %
+|   |   |   |   |   |   Custom %
+|   |   |   |   |   |
+|   |   |   |   |   Close All Positions
+|   |   |   |   |   |   100 %
+|   |   |   |   |   |   75 %
+|   |   |   |   |   |   50 %
+|   |   |   |   |   |   25 %
+|   |   |   |   |   |   Custom %
+|   |   |   |   |   |
+|   |   |   |   |   RFQ
+|   |   |   |   |   Check Margin Impact
+|   |   |   |   |   Check Risk
+|   |   |   |   |   Check CUSIP
+|   |   |   |   |   Transmit
+|   |   |   |   |   |   Transmit Selected Orders
+|   |   |   |   |   |   Transmit All Orders On Page
+|   |   |   |   |   |   Transmit All Orders
+|   |   |   |   |   |
+|   |   |   |   |   Pause Execution
+|   |   |   |   |   |   Pause Selected Orders
+|   |   |   |   |   |   Pause All Orders On Page
+|   |   |   |   |   |   Pause All Orders
+|   |   |   |   |   |
+|   |   |   |   |   Cancel
+|   |   |   |   |   |   Cancel Selected Orders
+|   |   |   |   |   |   Cancel All Orders On Page
+|   |   |   |   |   |   Cancel All Orders
+|   |   |   |   |   |
+|   |   |   |   |   Modify Multiple Orders
+|   |   |   |   |   Save Orders As Basket...
+|   |   |   |   |   Option Exercise
+|   |   |   |   |
+|   |   |   |   Account
+|   |   |   |   |   Information[Disabled]
+|   |   |   |   |   Account Window
+|   |   |   |   |   Portfolio Window
+|   |   |   |   |   Trade Log
+|   |   |   |   |   Statement Viewer
+|   |   |   |   |   Audit Trail
+|   |   |   |   |   Diagnostics
+|   |   |   |   |   |   TWS Logs
+|   |   |   |   |   |
+|   |   |   |   |   Completed Orders
+|   |   |   |   |   Management[Disabled]
+|   |   |   |   |   Account Management Home
+|   |   |   |   |   Stock Yield Enhancement
+|   |   |   |   |   FYI Notifications
+|   |   |   |   |   Market Data Subscription Manager
+|   |   |   |   |   Tax Optimizer
+|   |   |   |   |
+|   |   |   |   Trading Tools
+|   |   |   |   |   Vital Signs[Disabled]
+|   |   |   |   |   Quote Monitor
+|   |   |   |   |   Watchlist
+|   |   |   |   |   Market Depth (Level II)
+|   |   |   |   |   Market Depth Trader (Level II)
+|   |   |   |   |   Stock/Futures Focus[Disabled]
+|   |   |   |   |   BookTrader
+|   |   |   |   |   Integrated Stock Window
+|   |   |   |   |   Merger Arbitrage
+|   |   |   |   |   ScaleTrader
+|   |   |   |   |   Accumulate/Distribute
+|   |   |   |   |   Options Focus[Disabled]
+|   |   |   |   |   Option Chain
+|   |   |   |   |   Strategy Builder
+|   |   |   |   |   Option Strategy Lab
+|   |   |   |   |   Probability Lab
+|   |   |   |   |   Volatility Lab
+|   |   |   |   |   OptionTrader
+|   |   |   |   |   Write Options
+|   |   |   |   |   Rollover Options
+|   |   |   |   |   Option Portfolio
+|   |   |   |   |   VolatilityTrader
+|   |   |   |   |   FOREX Focus[Disabled]
+|   |   |   |   |   FXTrader
+|   |   |   |   |   Multi-Instrument[Disabled]
+|   |   |   |   |   IBot - type to trade
+|   |   |   |   |   BasketTrader
+|   |   |   |   |   Portfolio Builder
+|   |   |   |   |   Rebalance Portfolio
+|   |   |   |   |   SpreadTrader
+|   |   |   |   |   Stock Borrow/Loan[Disabled]
+|   |   |   |   |   Stock Borrow/Loan
+|   |   |   |   |   Yield Optimizer
+|   |   |   |   |
+|   |   |   |   Analytical Tools
+|   |   |   |   |   Technical[Disabled]
+|   |   |   |   |   Chart
+|   |   |   |   |   Option Analysis
+|   |   |   |   |   |   Option Strategy Scanners[Disabled]
+|   |   |   |   |   |   Probability Lab
+|   |   |   |   |   |   Option Strategy Lab
+|   |   |   |   |   |   Option Analytics[Disabled]
+|   |   |   |   |   |   Volatility Skew
+|   |   |   |   |   |   |   Multi-Expiry Skew
+|   |   |   |   |   |   |   Time Lapse Skew
+|   |   |   |   |   |   |
+|   |   |   |   |   |   Volatility Over Time
+|   |   |   |   |   |   |   Implied Volatility by Expiry
+|   |   |   |   |   |   |   Historical Volatility
+|   |   |   |   |   |   |
+|   |   |   |   |   |   Option Activity
+|   |   |   |   |   |   |   Open Interest by Strike
+|   |   |   |   |   |   |   Option Volume by Strike
+|   |   |   |   |   |   |
+|   |   |   |   |   |   Interactive Analytics
+|   |   |   |   |   |   |   Option Analytics
+|   |   |   |   |   |   |   Greeks
+|   |   |   |   |   |   |   Put+Call P&L
+|   |   |   |   |   |   |   IV Viewer + Term Structure
+|   |   |   |   |   |   |   Implied Volatility Viewer
+|   |   |   |   |   |   |   At-The-Money Option Implied Volatility Term Structure
+|   |   |   |   |   |   |   Dividend Schedule
+|   |   |   |   |   |   |   Interest Rate
+|   |   |   |   |   |   |   3D Volatility Surface
+|   |   |   |   |   |   |
+|   |   |   |   |   |   Strategy Performance Graph
+|   |   |   |   |   |
+|   |   |   |   |   Quote Details
+|   |   |   |   |   Mosaic Market Scanner
+|   |   |   |   |   Advanced Market Scanner
+|   |   |   |   |   Bond Scanner
+|   |   |   |   |   Complex Orders and Trades Scanner
+|   |   |   |   |   Mutual Fund/ETF Replicator
+|   |   |   |   |   Bond Search
+|   |   |   |   |   Time & Sales
+|   |   |   |   |   Price History
+|   |   |   |   |   Alerts
+|   |   |   |   |   SLB Rates
+|   |   |   |   |   Set Alarm
+|   |   |   |   |   Model Navigator
+|   |   |   |   |   Futures Term Structure
+|   |   |   |   |   Arbitrage Meter
+|   |   |   |   |   Toolbox
+|   |   |   |   |   Fundamentals[Disabled]
+|   |   |   |   |   Analyst Research
+|   |   |   |   |   |   Analyst Actions
+|   |   |   |   |   |   Recent Publications
+|   |   |   |   |   |   Subscribed[Disabled]
+|   |   |   |   |   |   Altavista - Hedge Finder
+|   |   |   |   |   |   Altavista - ETF Alternatives
+|   |   |   |   |   |   Altavista Research
+|   |   |   |   |   |   Briefing.com General Market Columns
+|   |   |   |   |   |   ETF Guide Research
+|   |   |   |   |   |   Edison Research
+|   |   |   |   |   |   Edison Video
+|   |   |   |   |   |   Estimize Research
+|   |   |   |   |   |   EventShares Research
+|   |   |   |   |   |   EventVestor - Free
+|   |   |   |   |   |   Insider Insights - Free
+|   |   |   |   |   |   New Constructs Research
+|   |   |   |   |   |   Reuters Briefs
+|   |   |   |   |   |   Reuters Transcripts
+|   |   |   |   |   |   Slingshot Insights - Free
+|   |   |   |   |   |   Stock Traders Daily - Free
+|   |   |   |   |   |   Zacks Company Reports - Free
+|   |   |   |   |   |
+|   |   |   |   |   Event Calendar
+|   |   |   |   |   Daily Lineup
+|   |   |   |   |   Calendar Events
+|   |   |   |   |   |   Economic Events
+|   |   |   |   |   |   Portfolio Dividends
+|   |   |   |   |   |
+|   |   |   |   |   Company Fundamentals
+|   |   |   |   |   SEC Filings
+|   |   |   |   |   News[Disabled]
+|   |   |   |   |   Company Specific News
+|   |   |   |   |   Filtered News (filter by subject or feed)
+|   |   |   |   |   Portfolio or Watchlist News
+|   |   |   |   |   Broad Tape (all subscribed news)
+|   |   |   |   |   Today's Top Ten
+|   |   |   |   |   Today's Top Ten
+|   |   |   |   |   |
+|   |   |   |   |   Traders' Insight
+|   |   |   |   |   Traders' Insight Videos
+|   |   |   |   |   Bloomberg TV
+|   |   |   |   |   Market Signals
+|   |   |   |   |   Social Sentiment
+|   |   |   |   |   StockTwits
+|   |   |   |   |   News Panel
+|   |   |   |   |   News Topics
+|   |   |   |   |   Portfolio[Disabled]
+|   |   |   |   |   Stock/ETF Benchmarker
+|   |   |   |   |   Risk Navigator
+|   |   |   |   |   |   Open 'My Portfolio'
+|   |   |   |   |   |   Open New What-If
+|   |   |   |   |   |   Open Saved What-If
+|   |   |   |   |   |
+|   |   |   |   |   Portfolio Performance Profile
+|   |   |   |   |   Portfolio Analyst
+|   |   |   |   |
+|   |   |   |   View
+|   |   |   |   |   Panels[Disabled]
+|   |   |   |   |   Trader Dashboard
+|   |   |   |   |   Rapid Order Entry
+|   |   |   |   |   Button Panel
+|   |   |   |   |   Status Monitors[Disabled]
+|   |   |   |   |   Data Connections
+|   |   |   |   |   IB Systems
+|   |   |   |   |   Bulletins
+|   |   |   |   |   Window Bar Configuration[Disabled]
+|   |   |   |   |   OS Window Bar
+|   |   |   |   |   Large Menu Text
+|   |   |   |   Help
+|   |   |   |   |   Show Help
+|   |   |   |   |   Guides and Documentation
+|   |   |   |   |   |   Mosaic Quick Tour
+|   |   |   |   |   |   Platform Overview
+|   |   |   |   |   |   Online Users' Guide
+|   |   |   |   |   |   Tutorials
+|   |   |   |   |   |   Algo Documentation Center
+|   |   |   |   |   |   Release Notes
+|   |   |   |   |   Customer Service
+|   |   |   |   |   |   Customer Service Info
+|   |   |   |   |   |   Customer Service Chat
+|   |   |   |   |   |   Open Message Center
+|   |   |   |   |   Features Poll
+|   |   |   |   |   Traders' Chat
+|   |   |   |   |   Show Hotkey Popup
+|   |   |   |   |   Upload Diagnostics...
+|   |   |   |   |   Show Tip of the Day
+|   |   |   |   |   About Trader Workstation...
+
+
+2019-04-24 19:35:57:361 IBController: Found TWS main window
+2019-04-24 19:35:57:686 IBController: Detected frame entitled: DU1288025 Interactive Brokers (Simulated Trading); event=Activated
+2019-04-24 19:35:57:692 IBController: Detected frame entitled: Starting application...; event=Closed
+2019-04-24 19:35:57:856 IBController: Detected dialog entitled: null; event=Activated
+2019-04-24 19:35:57:858 IBController: Detected dialog entitled: null; event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(javax.swing.JOptionPane){JOptionPane: javax.swing.JTextArea[,0,0,443x133,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=twslaunch.jtscomponents.plaf.P[r=0,g=0,b=0] (edit.fg),disabledTextColor=twslaunch.jtscomponents.plaf.P[r=192,g=192,b=192] (dis.fg),editable=false,margin=javax.swing.plaf.InsetsUIResource[top=0,left=0,bottom=0,right=0],selectedTextColor=twslaunch.jtscomponents.plaf.P[r=255,g=255,b=255] (sel.fg),selectionColor=twslaunch.jtscomponents.plaf.P[r=64,g=64,b=64] (sel.bg),colums=0,columWidth=0,rows=0,rowHeight=0,word=false,wrap=false]}
+|   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   OptionPane.realBody(javax.swing.JPanel)
+|   |   |   |   |   |   OptionPane.separator(javax.swing.JPanel)
+|   |   |   |   |   |   OptionPane.body(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.JTextArea)
+|   |   |   |   |   OptionPane.iconLabel(javax.swing.JLabel){JLabel: null}
+|   |   |   |   OptionPane.buttonArea(javax.swing.JPanel)
+|   |   |   |   |   OptionPane.button(javax.swing.JButton){JButton: OK}
+|   |   null(javax.swing.JPanel)
+|   |   |   null(jtscomponents.plaf.dV)
+|   |   null(jtscomponents.plaf.dT)
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: null}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dy){JButton: }
+|   |   |   null(jtscomponents.plaf.dR)
+|   |   |   Close(jtscomponents.plaf.dm){JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dn){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dm)[Disabled]{JButton: }
+
+
+2019-04-24 19:36:00:322 IBController: Detected dialog entitled: Warning; event=Activated
+2019-04-24 19:36:00:324 IBController: Detected dialog entitled: Warning; event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(javax.swing.JLabel){JLabel: null}
+|   |   |   |   null(javax.swing.JLabel){JLabel: <html>This is not a brokerage account. <br>This is a "paper" trading account in which you <br>can engage in simulated trading. <br><br>Please confirm that you understand and wish <br>to conduct simulated trading before proceeding.</html>}
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(trader.common.tag.j){JButton: I understand and accept}
+|   |   null(javax.swing.JPanel)
+|   |   |   null(jtscomponents.plaf.dV)
+|   |   null(jtscomponents.plaf.dT)
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: Warning}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dy){JButton: }
+|   |   |   null(jtscomponents.plaf.dR)
+|   |   |   Close(jtscomponents.plaf.dm)[Disabled]{JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dn){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dm)[Disabled]{JButton: }
+
+
+2019-04-24 19:36:00:325 IBController: Click button: I understand and accept
+2019-04-24 19:36:02:260 IBController: Detected dialog entitled: DU1288025 IB Trader Workstation (Simulated Trading); event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(javax.swing.JOptionPane){JOptionPane: }
+|   |   |   |   null(jutils.dW)
+|   |   |   |   |   null(javax.swing.JLabel){JLabel: null}
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(jutils.dY)
+|   |   |   |   |   |   null(javax.swing.JScrollPane$ScrollBar)
+|   |   |   |   |   |   |   null(jtscomponents.plaf.dD){JButton: }
+|   |   |   |   |   |   |   null(jtscomponents.plaf.dC){JButton: }
+|   |   |   |   |   |   null(javax.swing.JScrollPane$ScrollBar)
+|   |   |   |   |   |   |   null(jtscomponents.plaf.dD){JButton: }
+|   |   |   |   |   |   |   null(jtscomponents.plaf.dC){JButton: }
+|   |   |   |   |   |   null(twslaunch.jtscomponents.R)
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   null(jutils.d2)
+|   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   null(jutils.d2)
+|   |   |   |   OptionPane.buttonArea(javax.swing.JPanel)
+|   |   |   |   |   OptionPane.button(javax.swing.JButton){JButton: OK}
+|   |   null(javax.swing.JPanel)
+|   |   |   null(jtscomponents.plaf.dV)
+|   |   null(jtscomponents.plaf.dT)
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: DU1288025 IB Trader Workstation (Simulated Trading)}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dy){JButton: }
+|   |   |   null(jtscomponents.plaf.dR)
+|   |   |   Close(jtscomponents.plaf.dm){JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dn){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dm)[Disabled]{JButton: }
+
+
+2019-04-24 19:36:02:278 IBController: Detected dialog entitled: API announcements; event=Activated
+2019-04-24 19:36:02:280 IBController: Detected dialog entitled: API announcements; event=Closed
+2019-04-24 19:36:02:282 IBController: Detected dialog entitled: null; event=Activated
+2019-04-24 19:36:02:283 IBController: Detected dialog entitled: DU1288025 IB Trader Workstation (Simulated Trading); event=Closed
+2019-04-24 19:36:02:283 IBController: Detected dialog entitled: Warning; event=Closed
+2019-04-24 19:36:02:743 IBController: Detected dialog entitled: API announcements; event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(feature.messages.aD){JOptionPane: <html>Important notices for the API applications:</html>}
+|   |   |   |   null(jutils.dW)
+|   |   |   |   |   null(javax.swing.JLabel){JLabel: null}
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(jutils.dY)
+|   |   |   |   |   |   null(javax.swing.JScrollPane$ScrollBar)
+|   |   |   |   |   |   |   null(jtscomponents.plaf.dD){JButton: }
+|   |   |   |   |   |   |   null(jtscomponents.plaf.dC){JButton: }
+|   |   |   |   |   |   null(javax.swing.JScrollPane$ScrollBar)
+|   |   |   |   |   |   |   null(jtscomponents.plaf.dD){JButton: }
+|   |   |   |   |   |   |   null(jtscomponents.plaf.dC){JButton: }
+|   |   |   |   |   |   null(twslaunch.jtscomponents.R)
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   null(jutils.d2)
+|   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   null(jutils.d2)
+|   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   null(jutils.d2)
+|   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(trader.common.tag.k){JCheckBox: Hide until next API release}
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   OptionPane.button(javax.swing.JButton){JButton: OK}
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   null(javax.swing.JPanel)
+|   |   |   null(jtscomponents.plaf.dV)
+|   |   null(jtscomponents.plaf.dT)
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: API announcements}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dy){JButton: }
+|   |   |   null(jtscomponents.plaf.dR)
+|   |   |   Close(jtscomponents.plaf.dm){JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dn){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dm)[Disabled]{JButton: }
+
+
+2019-04-24 19:36:09:922 IBController: Detected dialog entitled: API announcements; event=Activated
+2019-04-24 19:36:11:196 IBController: Detected dialog entitled: API announcements; event=Closed
+2019-04-24 19:36:13:358 IBController: Detected frame entitled: DU1288025 Interactive Brokers (Simulated Trading); event=Activated
+2019-04-24 19:36:16:984 IBController: Detected window: type=javax.swing.Popup$HeavyWeightWindow; event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(javax.swing.JToolTip)
+
+
+2019-04-24 19:36:19:588 IBController: Detected frame entitled: DU1288025 Interactive Brokers (Simulated Trading); event=Closing
+2019-04-24 19:36:19:728 IBController: Detected dialog entitled: DU1288025 IB Trader Workstation (Simulated Trading); event=Activated
+2019-04-24 19:36:19:728 IBController: Detected dialog entitled: DU1288025 IB Trader Workstation (Simulated Trading); event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null(javax.swing.JPanel)
+|   |   |   null(jtscomponents.plaf.dV)
+|   |   null(jtscomponents.plaf.dT)
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: DU1288025 IB Trader Workstation (Simulated Trading)}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dy){JButton: }
+|   |   |   null(jtscomponents.plaf.dR)
+|   |   |   |   null(jtscomponents.plaf.dO){JLabel: }
+|   |   |   Close(jtscomponents.plaf.dm)[Disabled]{JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dn){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dm)[Disabled]{JButton: }
+|   |   null(javax.swing.JOptionPane){JOptionPane: Are you sure you want to exit?}
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   OptionPane.realBody(javax.swing.JPanel)
+|   |   |   |   |   OptionPane.separator(javax.swing.JPanel)
+|   |   |   |   |   OptionPane.body(javax.swing.JPanel)
+|   |   |   |   |   |   OptionPane.label(javax.swing.JLabel){JLabel: Are you sure you want to exit?}
+|   |   |   |   OptionPane.iconLabel(javax.swing.JLabel){JLabel: null}
+|   |   |   OptionPane.buttonArea(javax.swing.JPanel)
+|   |   |   |   null(trader.common.tag.k){JCheckBox: Don't display this message again.}
+|   |   |   |   OptionPane.button(javax.swing.JButton){JButton: Yes}
+|   |   |   |   OptionPane.button(javax.swing.JButton){JButton: No}
+
+
+2019-04-24 19:36:22:722 IBController: Detected frame entitled: DU1288025 Interactive Brokers (Simulated Trading); event=Activated
+2019-04-24 19:36:22:727 IBController: Detected dialog entitled: DU1288025 IB Trader Workstation (Simulated Trading); event=Closed
+2019-04-24 19:36:22:889 IBController: Detected dialog entitled: Shutdown progress; event=Activated
+2019-04-24 19:36:22:893 IBController: Detected dialog entitled: Shutdown progress; event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null(javax.swing.JPanel)
+|   |   |   null(javax.swing.JProgressBar)
+|   |   |   null(javax.swing.Box$Filler)
+|   |   |   null(javax.swing.Box$Filler)
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(javax.swing.JLabel){JLabel: Uploading Mobile Settings...}
+|   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   null(trader.common.tag.j)[Disabled]{JButton: Cancel}
+|   |   null(javax.swing.JPanel)
+|   |   |   null(jtscomponents.plaf.dV)
+|   |   null(jtscomponents.plaf.dT)
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: Shutdown progress}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dy){JButton: }
+|   |   |   null(jtscomponents.plaf.dR)
+|   |   |   |   null(jtscomponents.plaf.dO){JLabel: }
+|   |   |   Close(jtscomponents.plaf.dm)[Disabled]{JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dn){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dm)[Disabled]{JButton: }
+|   |   |   Keep window on top(trader.common.dN)
+
+
+2019-04-24 19:36:23:716 IBController: Detected dialog entitled: Uploading settings to server; event=Closed
+2019-04-24 19:36:23:809 IBController: Detected dialog entitled: Uploading settings to server; event=Closed
+2019-04-24 19:36:26,074 JTS-IA-Usage-Reporter-1 ERROR Attempted to append to non-started appender d
+2019-04-24 19:36:26,077 JTS-IA-Usage-Reporter-1 ERROR Attempted to append to non-started appender d
+2019-04-24 19:36:27:298 IBController: Detected dialog entitled: Uploading settings to server; event=Closed
+2019-04-24 19:36:27,301 JTS-ShutdownTask-Shutdown_IA-146 ERROR Attempted to append to non-started appender d
+2019-04-24 19:36:27,303 NIA-Input-Queue-2 ERROR Attempted to append to non-started appender d
+2019-04-24 19:36:27:548 IBController: Detected frame entitled: Loading...; event=Closed
+
+Process finished with exit code 0

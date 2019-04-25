@@ -44,6 +44,11 @@ class SwingUtils {
         }
 
         Utils.logToConsole("Click button: " + buttonText);
+        //FIXME nedavat do produkcie, iba test
+        /*if (true) {
+            Utils.logToConsole("KILL APP");
+            System.exit(1);
+        }*/
         button.doClick();
         if (!button.isEnabled()) Utils.logToConsole("Button now disabled: " + buttonText);
         return true;
@@ -635,6 +640,10 @@ class SwingUtils {
         } else if (component instanceof JList) {
             builder.append("{");
             builder.append("JList: ");
+            builder.append("}");
+        } else {
+            builder.append("{");
+            builder.append("UNKNOWN-" + component.toString() + ": ");
             builder.append("}");
         }
     }

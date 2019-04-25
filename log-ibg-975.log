@@ -1,0 +1,1229 @@
+F:\servers\java8\bin\java.exe -Dvisualvm.id=169170377152459 "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019\lib\idea_rt.jar=54799:C:\Program Files\JetBrains\IntelliJ IDEA 2019\bin" -Dfile.encoding=UTF-8 -classpath F:\servers\java8\jre\lib\charsets.jar;F:\servers\java8\jre\lib\deploy.jar;F:\servers\java8\jre\lib\ext\access-bridge-64.jar;F:\servers\java8\jre\lib\ext\cldrdata.jar;F:\servers\java8\jre\lib\ext\dnsns.jar;F:\servers\java8\jre\lib\ext\jaccess.jar;F:\servers\java8\jre\lib\ext\jfxrt.jar;F:\servers\java8\jre\lib\ext\localedata.jar;F:\servers\java8\jre\lib\ext\nashorn.jar;F:\servers\java8\jre\lib\ext\sunec.jar;F:\servers\java8\jre\lib\ext\sunjce_provider.jar;F:\servers\java8\jre\lib\ext\sunmscapi.jar;F:\servers\java8\jre\lib\ext\sunpkcs11.jar;F:\servers\java8\jre\lib\ext\zipfs.jar;F:\servers\java8\jre\lib\javaws.jar;F:\servers\java8\jre\lib\jce.jar;F:\servers\java8\jre\lib\jfr.jar;F:\servers\java8\jre\lib\jfxswt.jar;F:\servers\java8\jre\lib\jsse.jar;F:\servers\java8\jre\lib\management-agent.jar;F:\servers\java8\jre\lib\plugin.jar;F:\servers\java8\jre\lib\resources.jar;F:\servers\java8\jre\lib\rt.jar;R:\work\rarcon\projects-java\ib-controller\out\production\ib-controller;C:\Jts\ibgateway\975\jars\locales.jar;C:\Jts\ibgateway\975\jars\total-2018.jar;C:\Jts\ibgateway\975\jars\log4j-api-2.5.jar;C:\Jts\ibgateway\975\jars\twslaunch-975.jar;C:\Jts\ibgateway\975\jars\jts4launch-975.jar;C:\Jts\ibgateway\975\jars\log4j-core-2.5.jar;C:\Jts\ibgateway\975\jars\twslaunch-install4j-1.9.jar ibcontroller.IBGatewayController c:\Users\raro\.IBController\IBController.ibg.ini
+2019-04-24 18:27:37:301 IBController: Args length: 1
+2019-04-24 18:27:37:303 IBController: Arg: c:\Users\raro\.IBController\IBController.ibg.ini
+2019-04-24 18:27:37:314 IBController: Properties file C:\Users\raro\Documents\IBController\IBController.ini not found
+System Properties
+------------------------------------------------------------
+java.runtime.name = Java(TM) SE Runtime Environment
+sun.boot.library.path = F:\servers\java8\jre\bin
+java.vm.version = 25.60-b23
+user.country.format = SK
+java.vm.vendor = Oracle Corporation
+java.vendor.url = http://java.oracle.com/
+path.separator = ;
+java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg = sun.io
+user.country = US
+user.script =
+sun.java.launcher = SUN_STANDARD
+sun.os.patch.level =
+java.vm.specification.name = Java Virtual Machine Specification
+user.dir = R:\work\rarcon\projects-java\ib-controller
+java.runtime.version = 1.8.0_60-b27
+java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs = F:\servers\java8\jre\lib\endorsed
+os.arch = amd64
+visualvm.id = 169170377152459
+java.io.tmpdir = Y:\Temp\
+line.separator =
+
+java.vm.specification.vendor = Oracle Corporation
+user.variant =
+os.name = Windows 8.1
+sun.jnu.encoding = Cp1252
+java.library.path = F:\servers\java8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\Program Files (x86)\Subversion\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\servers\xampp\php;C:\ProgramData\ComposerSetup\bin;d:\Program Files\nodejs\;d:\programs\Android\sdk\;d:\programs\Android\sdk\platform-tools\;d:\programs\Android\sdk\tools\;C:\Program Files\OpenVPN\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\EAC MW klient\;C:\Users\raro\AppData\Roaming\Composer\vendor\bin;C:\Users\raro\AppData\Roaming\npm;.
+java.specification.name = Java Platform API Specification
+java.class.version = 52.0
+sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+os.version = 6.3
+user.home = C:\Users\raro
+user.timezone = Europe/Prague
+java.awt.printerjob = sun.awt.windows.WPrinterJob
+file.encoding = UTF-8
+java.specification.version = 1.8
+java.class.path = F:\servers\java8\jre\lib\charsets.jar;F:\servers\java8\jre\lib\deploy.jar;F:\servers\java8\jre\lib\ext\access-bridge-64.jar;F:\servers\java8\jre\lib\ext\cldrdata.jar;F:\servers\java8\jre\lib\ext\dnsns.jar;F:\servers\java8\jre\lib\ext\jaccess.jar;F:\servers\java8\jre\lib\ext\jfxrt.jar;F:\servers\java8\jre\lib\ext\localedata.jar;F:\servers\java8\jre\lib\ext\nashorn.jar;F:\servers\java8\jre\lib\ext\sunec.jar;F:\servers\java8\jre\lib\ext\sunjce_provider.jar;F:\servers\java8\jre\lib\ext\sunmscapi.jar;F:\servers\java8\jre\lib\ext\sunpkcs11.jar;F:\servers\java8\jre\lib\ext\zipfs.jar;F:\servers\java8\jre\lib\javaws.jar;F:\servers\java8\jre\lib\jce.jar;F:\servers\java8\jre\lib\jfr.jar;F:\servers\java8\jre\lib\jfxswt.jar;F:\servers\java8\jre\lib\jsse.jar;F:\servers\java8\jre\lib\management-agent.jar;F:\servers\java8\jre\lib\plugin.jar;F:\servers\java8\jre\lib\resources.jar;F:\servers\java8\jre\lib\rt.jar;R:\work\rarcon\projects-java\ib-controller\out\production\ib-controller;C:\Jts\ibgateway\975\jars\locales.jar;C:\Jts\ibgateway\975\jars\total-2018.jar;C:\Jts\ibgateway\975\jars\log4j-api-2.5.jar;C:\Jts\ibgateway\975\jars\twslaunch-975.jar;C:\Jts\ibgateway\975\jars\jts4launch-975.jar;C:\Jts\ibgateway\975\jars\log4j-core-2.5.jar;C:\Jts\ibgateway\975\jars\twslaunch-install4j-1.9.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019\lib\idea_rt.jar
+user.name = raro
+java.vm.specification.version = 1.8
+sun.java.command = ibcontroller.IBGatewayController c:\Users\raro\.IBController\IBController.ibg.ini
+java.home = F:\servers\java8\jre
+sun.arch.data.model = 64
+user.language = en
+java.specification.vendor = Oracle Corporation
+user.language.format = sk
+awt.toolkit = sun.awt.windows.WToolkit
+java.vm.info = mixed mode
+java.version = 1.8.0_60
+java.ext.dirs = F:\servers\java8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+sun.boot.class.path = F:\servers\java8\jre\lib\resources.jar;F:\servers\java8\jre\lib\rt.jar;F:\servers\java8\jre\lib\sunrsasign.jar;F:\servers\java8\jre\lib\jsse.jar;F:\servers\java8\jre\lib\jce.jar;F:\servers\java8\jre\lib\charsets.jar;F:\servers\java8\jre\lib\jfr.jar;F:\servers\java8\jre\classes
+java.vendor = Oracle Corporation
+file.separator = \
+java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+sun.io.unicode.encoding = UnicodeLittle
+sun.cpu.endian = little
+sun.desktop = windows
+sun.cpu.isalist = amd64
+------------------------------------------------------------
+2019-04-24 18:27:37:322 IBController: Using default settings provider: ini file is c:\Users\raro\.IBController\IBController.ibg.ini
+2019-04-24 18:27:37:323 IBController: Using default login manager: getting username and password from args but not found. Will get from settings
+2019-04-24 18:27:37:323 IBController: Using default config dialog manager: constructor parameter isGateway=true
+2019-04-24 18:27:37:323 IBController: Using default trading mode manager: constructor parameter args but trading mode not present - will be taken from settings
+2019-04-24 18:27:37:325 IBController: Using default config dialog manager
+2019-04-24 18:27:37:335 IBController: IBControllerServer is starting with port 4003
+2019-04-24 18:27:37:337 IBController: IBControllerServer listening on address: 127.0.0.1 port: 4003
+2019-04-24 18:27:37:337 IBController: IBControllerServer started and is ready to accept commands
+2019-04-24 18:27:37:617 IBController: TWS Settings directory is: c:\Jts\Store\972_ibg_demo
+2019-04-24 18:27:37:624 IBController: Ensuring c:\Jts\Store\972_ibg_demo\jts.ini contains required minimal lines
+2019-04-24 18:27:37:625 IBController: Found section: [Logon]
+2019-04-24 18:27:37:625 IBController: Can't find setting: s3store=false
+2019-04-24 18:27:37:625 IBController: Found section: [Logon]
+2019-04-24 18:27:37:625 IBController: Found setting: s3store=true
+2019-04-24 18:27:37:625 IBController: Found section: [IBGateway]
+2019-04-24 18:27:37:626 IBController: Found setting: ApiOnly=true
+2019-04-24 18:27:37:626 IBController: Confirmed c:\Jts\Store\972_ibg_demo\jts.ini contains required minimal lines
+2019-04-24 18:27:43:715 IBController: LogWindow.window: ibgateway.ax
+2019-04-24 18:27:43:715 IBController: LogWindow.event: Activated
+2019-04-24 18:27:43:715 IBController: Detected frame entitled: IB Gateway; event=Activated
+2019-04-24 18:27:43:715 IBController: SwingUtils.titleContains |title=IB Gateway |text=Exit Session Setting
+2019-04-24 18:27:43:715 IBController: SwingUtils.titleContains |title=IB Gateway |text=Session-Exit-Einstellung
+2019-04-24 18:27:43:716 IBController: SwingUtils.findLabel | text=Newer Version
+2019-04-24 18:27:43:717 IBController: SwingUtils.titleContains |title=IB Gateway |text=NSE Compliance
+2019-04-24 18:27:43:717 IBController: SwingUtils.titleContains |title=IB Gateway |text=Password Notice
+2019-04-24 18:27:43:723 IBController: LogWindow.window: ibgateway.ax
+2019-04-24 18:27:43:723 IBController: LogWindow.event: Opened
+2019-04-24 18:27:43:723 IBController: Detected frame entitled: IB Gateway; event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null(jtscomponents.plaf.dR)
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: IB Gateway}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dw){JButton: }
+|   |   |   null(jtscomponents.plaf.dP)
+|   |   |   |   null(jtscomponents.plaf.dM){JLabel: }
+|   |   |   Close(jtscomponents.plaf.dk){JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dl){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dk){JButton: }
+|   |   null(ibgateway.aE)
+|   |   |   null(ibgateway.aC)
+|   |   |   |   null(twslaunch.jclient.bs)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JButton){JButton: English}
+|   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   null(javax.swing.JLabel){JLabel: null}
+|   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: API Type}
+|   |   |   |   |   |   null(ibgateway.aF)
+|   |   |   |   |   |   |   null(twslaunch.jtscomponents.T)
+|   |   |   |   |   |   |   null(twslaunch.jtscomponents.T)
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Trading Mode}
+|   |   |   |   |   |   null(twslaunch.jclient.by)
+|   |   |   |   |   |   |   null(twslaunch.jtscomponents.T)
+|   |   |   |   |   |   |   null(twslaunch.jtscomponents.T)
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(twslaunch.jclient.bx)
+|   |   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: SIMULATED TRADING}
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: null}
+|   |   |   |   |   |   |   |   null(twslaunch.trader.common.document.u){JTextField: }
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: null}
+|   |   |   |   |   |   |   |   null(twslaunch.trader.common.document.r){JTextField: }
+|   |   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: null}
+|   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: SSL}
+|   |   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   |   null(javax.swing.JCheckBox){JCheckBox: Use SSL}
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.JButton)[Disabled]{JButton: Paper Log In}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   null(twslaunch.jclient.bw)
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: 1}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: 2}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: 3}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: 4}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: 5}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: 6}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: 7}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: 8}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: 9}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: 0}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: q}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: w}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: e}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: r}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: t}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: y}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: u}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: i}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: o}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: p}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: a}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: s}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: d}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: f}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: g}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: h}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: j}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: k}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: l}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bm){JLabel: }
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: z}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: x}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: c}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: v}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: b}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: n}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: m}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: ,}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: .}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bm){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: !}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: @}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: #}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: $}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: %}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: ^}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: &}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: *}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: (}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: )}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: {}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: }}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: [}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: ]}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: '}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: \}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: |}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: <}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: >}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: ?}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: +}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: -}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: =}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: _}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: :}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: ;}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: "}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: /}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bl){JLabel: ~}
+|   |   |   |   |   |   |   |   null(twslaunch.jclient.bm){JLabel: }
+|   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JButton){JButton: More Options}
+|   |   |   |   |   null(javax.swing.JButton){JButton: }
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   null(javax.swing.JScrollPane)
+|   |   |   |   null(javax.swing.JViewport)
+|   |   |   |   |   null(ibgateway.aD)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Color Theme}
+|   |   |   |   |   |   null(javax.swing.JComboBox){JComboBox: }
+|   |   |   |   |   |   |   null(javax.swing.plaf.metal.MetalComboBoxButton){JButton: }
+|   |   |   |   |   |   |   null(javax.swing.CellRendererPane)
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Select language}
+|   |   |   |   |   |   null(javax.swing.JComboBox){JComboBox: }
+|   |   |   |   |   |   |   null(javax.swing.plaf.metal.MetalComboBoxButton){JButton: }
+|   |   |   |   |   |   |   null(javax.swing.CellRendererPane)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Region}
+|   |   |   |   |   |   null(javax.swing.JComboBox){JComboBox: }
+|   |   |   |   |   |   |   null(javax.swing.plaf.metal.MetalComboBoxButton){JButton: }
+|   |   |   |   |   |   |   null(javax.swing.CellRendererPane)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Time Zone}
+|   |   |   |   |   |   null(javax.swing.JComboBox){JComboBox: }
+|   |   |   |   |   |   |   null(javax.swing.plaf.metal.MetalComboBoxButton){JButton: }
+|   |   |   |   |   |   |   null(javax.swing.CellRendererPane)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Settings directory}
+|   |   |   |   |   |   null(javax.swing.JTextField){JTextField: c:\Jts\Store\972_ibg_demo}
+|   |   |   |   |   |   null(javax.swing.JButton){JButton: Browse}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Host}
+|   |   |   |   |   |   null(javax.swing.JTextField){JTextField: }
+|   |   |   |   |   |   null(javax.swing.JButton){JButton: Lookup}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Port}
+|   |   |   |   |   |   null(twslaunch.trader.common.document.u){JTextField: }
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel:     Browser Path}
+|   |   |   |   |   |   null(javax.swing.JTextField){JTextField: }
+|   |   |   |   |   |   null(javax.swing.JButton){JButton: Locate}
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.JCheckBox){JCheckBox: No internet connectivity}
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(twslaunch.jtscomponents.N){JLabel: null}
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.JCheckBox){JCheckBox: Connect through private WAN}
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Select designated server}
+|   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   |   null(javax.swing.JComboBox)[Disabled]{JComboBox: }
+|   |   |   |   |   |   |   |   |   null(javax.swing.plaf.metal.MetalComboBoxButton)[Disabled]{JButton: }
+|   |   |   |   |   |   |   |   |   null(javax.swing.CellRendererPane)
+|   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(javax.swing.JScrollPane$ScrollBar)
+|   |   |   |   |   null(jtscomponents.plaf.dB){JButton: }
+|   |   |   |   |   null(jtscomponents.plaf.dA){JButton: }
+|   |   |   |   null(javax.swing.JScrollPane$ScrollBar)
+|   |   |   |   |   null(jtscomponents.plaf.dB){JButton: }
+|   |   |   |   |   null(jtscomponents.plaf.dA){JButton: }
+|   |   |   null(javax.swing.Box$Filler)
+
+
+2019-04-24 18:27:43:726 IBController: SwingUtils.titleContains |title=IB Gateway |text=Exit Session Setting
+2019-04-24 18:27:43:726 IBController: SwingUtils.titleContains |title=IB Gateway |text=Session-Exit-Einstellung
+2019-04-24 18:27:43:726 IBController: SwingUtils.titleEquals |title=IB Gateway |text=New Login
+2019-04-24 18:27:43:726 IBController: SwingUtils.titleEquals |title=IB Gateway |text=Login
+2019-04-24 18:27:43:727 IBController: Trading mode from settings: tradingMode=paper
+2019-04-24 18:27:43:727 IBController: SwingUtils.titleContains |title=IB Gateway |text=IB Gateway
+2019-04-24 18:27:43:727 IBController: SwingUtils.findButton | text=Paper Log In
+2019-04-24 18:27:43:727 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:727 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JRootPane
+2019-04-24 18:27:43:727 IBController: SwingUtils.findButton | component.name=null.glassPane
+2019-04-24 18:27:43:727 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:727 IBController: SwingUtils.findButton | JPanel.name=null.glassPane
+2019-04-24 18:27:43:727 IBController: SwingUtils.findButton | component.name=null.layeredPane
+2019-04-24 18:27:43:727 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLayeredPane
+2019-04-24 18:27:43:727 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:727 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dR
+2019-04-24 18:27:43:728 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:728 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:728 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:728 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:728 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:728 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:728 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:728 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:728 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:728 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:728 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:43:728 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:728 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dP
+2019-04-24 18:27:43:729 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:729 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:729 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dM
+2019-04-24 18:27:43:729 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:729 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:43:729 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:43:729 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:43:729 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:729 IBController: SwingUtils.findButton | component.canonical-name=ibgateway.aE
+2019-04-24 18:27:43:729 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:729 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:729 IBController: SwingUtils.findButton | component.canonical-name=ibgateway.aC
+2019-04-24 18:27:43:730 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:730 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:730 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jclient.bs
+2019-04-24 18:27:43:730 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:730 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:730 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:730 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:730 IBController: SwingUtils.findButton | JButton.text=English
+2019-04-24 18:27:43:730 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:731 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:27:43:731 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:731 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:731 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:732 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:732 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:732 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:732 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:732 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:732 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:732 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:732 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:732 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:732 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:732 IBController: SwingUtils.findButton | component.canonical-name=ibgateway.aF
+2019-04-24 18:27:43:732 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:732 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:733 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jtscomponents.T
+2019-04-24 18:27:43:733 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:733 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jtscomponents.T
+2019-04-24 18:27:43:733 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:733 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:733 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:733 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:733 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:733 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:733 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:733 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jclient.by
+2019-04-24 18:27:43:733 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:733 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:734 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jtscomponents.T
+2019-04-24 18:27:43:734 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:734 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jtscomponents.T
+2019-04-24 18:27:43:734 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:734 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:734 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:734 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:734 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:734 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:734 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:734 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:734 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:735 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:735 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jclient.bx
+2019-04-24 18:27:43:735 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:735 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:735 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:735 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:735 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:735 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:735 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:735 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:736 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:736 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:736 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:736 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.trader.common.document.u
+2019-04-24 18:27:43:736 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:736 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:736 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:736 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:736 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:736 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:736 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:736 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.trader.common.document.r
+2019-04-24 18:27:43:737 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:737 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:737 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:737 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:737 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:737 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:737 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:737 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:27:43:737 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:737 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:737 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:737 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:738 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:27:43:738 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:738 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JCheckBox
+2019-04-24 18:27:43:738 IBController: SwingUtils.findButton | JCheckBox.name=null
+2019-04-24 18:27:43:738 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:738 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:738 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:739 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:739 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:739 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:739 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:739 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:739 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:739 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:739 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:739 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:739 IBController: SwingUtils.findButton | JButton.text=Paper Log In
+2019-04-24 18:27:43:740 IBController: SwingUtils.findButton | setting
+2019-04-24 18:27:43:740 IBController: SwingUtils.findLabel | text=Trading Mode
+2019-04-24 18:27:43:740 IBController: SwingUtils.findComboBox | ith=0
+2019-04-24 18:27:43:740 IBController: SwingUtils.findCheckBox | component.pos=0
+2019-04-24 18:27:43:741 IBController: SwingUtils.findComboBox | setting
+2019-04-24 18:27:43:741 IBController: Trading mode from settings: tradingMode=paper
+2019-04-24 18:27:43:741 IBController: Setting Trading mode = paper
+2019-04-24 18:27:43:741 IBController: SwingUtils.findTextField | ith=0
+2019-04-24 18:27:43:741 IBController: SwingUtils.setTextField | setting
+2019-04-24 18:27:43:743 IBController: SwingUtils.findTextField | ith=1
+2019-04-24 18:27:43:743 IBController: SwingUtils.setTextField | setting
+2019-04-24 18:27:43:744 IBController: Trading mode from settings: tradingMode=paper
+2019-04-24 18:27:43:744 IBController: SwingUtils.findButton | text=Paper Log In
+2019-04-24 18:27:43:744 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:744 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JRootPane
+2019-04-24 18:27:43:744 IBController: SwingUtils.findButton | component.name=null.glassPane
+2019-04-24 18:27:43:744 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:744 IBController: SwingUtils.findButton | JPanel.name=null.glassPane
+2019-04-24 18:27:43:744 IBController: SwingUtils.findButton | component.name=null.layeredPane
+2019-04-24 18:27:43:744 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLayeredPane
+2019-04-24 18:27:43:744 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dR
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dP
+2019-04-24 18:27:43:745 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:746 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:746 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dM
+2019-04-24 18:27:43:746 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:746 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:43:746 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:43:746 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:43:746 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:746 IBController: SwingUtils.findButton | component.canonical-name=ibgateway.aE
+2019-04-24 18:27:43:746 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:747 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:747 IBController: SwingUtils.findButton | component.canonical-name=ibgateway.aC
+2019-04-24 18:27:43:747 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:747 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:747 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jclient.bs
+2019-04-24 18:27:43:747 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:747 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:747 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:747 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:748 IBController: SwingUtils.findButton | JButton.text=English
+2019-04-24 18:27:43:748 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:748 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:27:43:748 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:748 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:748 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:748 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:748 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:748 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:749 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:749 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:749 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:749 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:749 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:749 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:749 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:749 IBController: SwingUtils.findButton | component.canonical-name=ibgateway.aF
+2019-04-24 18:27:43:749 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:749 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:749 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jtscomponents.T
+2019-04-24 18:27:43:749 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:750 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jtscomponents.T
+2019-04-24 18:27:43:750 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:750 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:750 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:750 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:750 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:750 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:750 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:750 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jclient.by
+2019-04-24 18:27:43:750 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jtscomponents.T
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jtscomponents.T
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jclient.bx
+2019-04-24 18:27:43:751 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.trader.common.document.u
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:752 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.trader.common.document.r
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:27:43:753 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:754 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JCheckBox
+2019-04-24 18:27:43:754 IBController: SwingUtils.findButton | JCheckBox.name=null
+2019-04-24 18:27:43:754 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:754 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:754 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:754 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:754 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:754 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:754 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:755 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:755 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:755 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:755 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:755 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:755 IBController: SwingUtils.findButton | JButton.text=Paper Log In
+2019-04-24 18:27:43:755 IBController: SwingUtils.findButton | setting
+2019-04-24 18:27:43:931 IBController: SwingUtils.findButton | text=Paper Log In
+2019-04-24 18:27:43:931 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:931 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JRootPane
+2019-04-24 18:27:43:931 IBController: SwingUtils.findButton | component.name=null.glassPane
+2019-04-24 18:27:43:932 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:932 IBController: SwingUtils.findButton | JPanel.name=null.glassPane
+2019-04-24 18:27:43:932 IBController: SwingUtils.findButton | component.name=null.layeredPane
+2019-04-24 18:27:43:932 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLayeredPane
+2019-04-24 18:27:43:932 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:932 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dR
+2019-04-24 18:27:43:932 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:932 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:932 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:932 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:932 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:932 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:932 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:932 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dP
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dM
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | component.canonical-name=ibgateway.aE
+2019-04-24 18:27:43:933 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | component.canonical-name=ibgateway.aC
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jclient.bs
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | JButton.text=English
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:934 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | component.canonical-name=ibgateway.aF
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jtscomponents.T
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jtscomponents.T
+2019-04-24 18:27:43:935 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:936 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:936 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:936 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:936 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:936 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:936 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:936 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jclient.by
+2019-04-24 18:27:43:936 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:936 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:936 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jtscomponents.T
+2019-04-24 18:27:43:936 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:936 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jtscomponents.T
+2019-04-24 18:27:43:936 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:936 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:937 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:937 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:937 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:937 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:937 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:937 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:937 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:937 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:937 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.jclient.bx
+2019-04-24 18:27:43:937 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:937 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:937 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:937 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:937 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:938 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:938 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:938 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:938 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:938 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:938 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:938 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.trader.common.document.u
+2019-04-24 18:27:43:938 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:938 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:938 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:938 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:938 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:938 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:938 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | component.canonical-name=twslaunch.trader.common.document.r
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JCheckBox
+2019-04-24 18:27:43:939 IBController: SwingUtils.findButton | JCheckBox.name=null
+2019-04-24 18:27:43:940 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:940 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:940 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:940 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:940 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:940 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:940 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:940 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:43:940 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:43:940 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:43:940 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:43:940 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:43:940 IBController: SwingUtils.findButton | JButton.text=Paper Log In
+2019-04-24 18:27:43:940 IBController: SwingUtils.findButton | setting
+2019-04-24 18:27:43:941 IBController: Click button: Paper Log In
+2019-04-24 18:27:44:812 IBController: LogWindow.window: ibgateway.aw
+2019-04-24 18:27:44:813 IBController: LogWindow.event: Activated
+2019-04-24 18:27:44:813 IBController: Detected frame entitled: IB Gateway.  API Account: d0h3gyu9h; event=Activated
+2019-04-24 18:27:44:813 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=Exit Session Setting
+2019-04-24 18:27:44:813 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=Session-Exit-Einstellung
+2019-04-24 18:27:44:813 IBController: SwingUtils.findLabel | text=Newer Version
+2019-04-24 18:27:44:813 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=NSE Compliance
+2019-04-24 18:27:44:813 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=Password Notice
+2019-04-24 18:27:44:819 IBController: LogWindow.window: ibgateway.aw
+2019-04-24 18:27:44:821 IBController: LogWindow.event: Opened
+2019-04-24 18:27:44:821 IBController: Detected frame entitled: IB Gateway.  API Account: d0h3gyu9h; event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(ibgateway.aB)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Purpose}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Status}
+|   |   |   |   |   null(ibgateway.aA)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Interactive Brokers API Server}
+|   |   |   |   |   |   null(feature.farm.v)
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: disconnected}
+|   |   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   |   null(jclient.qc)
+|   |   |   |   null(ibgateway.az)
+|   |   |   |   |   null(ibgateway.ay)
+|   |   |   |   |   |   null(trader.common.tag.l)[Disabled]{JCheckBox: Show log}
+|   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   null(trader.common.tag.l)[Disabled]{JCheckBox: Show API messages}
+|   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   |   null(jutils.d6)
+|   |   |   |   |   |   null(jutils.d6)
+|   |   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JTabbedPane)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(trader.common.tag.k){JButton: Clear}
+|   |   null(jtscomponents.plaf.dR)
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: IB Gateway.  API Account: d0h3gyu9h}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dw){JButton: }
+|   |   |   null(jtscomponents.plaf.dP)
+|   |   |   |   null(jtscomponents.plaf.dM){JLabel: }
+|   |   |   Close(jtscomponents.plaf.dk){JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dl){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dk){JButton: }
+|   |   |   null(jtscomponents.io){JMenuBar: null}
+|   |   |   |   File
+|   |   |   |   |   Gateway Logs
+|   |   |   |   |   Close
+|   |   |   |   Configure
+|   |   |   |   |   Settings[Disabled]
+|   |   |   |   |   Automatic Encryption
+|   |   |   |   Help
+|   |   |   |   |   About IB Gateway
+
+
+2019-04-24 18:27:44:821 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=Exit Session Setting
+2019-04-24 18:27:44:821 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=Session-Exit-Einstellung
+2019-04-24 18:27:44:821 IBController: SwingUtils.titleEquals |title=IB Gateway.  API Account: d0h3gyu9h |text=New Login
+2019-04-24 18:27:44:821 IBController: SwingUtils.titleEquals |title=IB Gateway.  API Account: d0h3gyu9h |text=Login
+2019-04-24 18:27:44:822 IBController: Trading mode from settings: tradingMode=paper
+2019-04-24 18:27:44:822 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=IB Gateway
+2019-04-24 18:27:44:823 IBController: SwingUtils.findButton | text=Paper Log In
+2019-04-24 18:27:44:823 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:823 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JRootPane
+2019-04-24 18:27:44:823 IBController: SwingUtils.findButton | component.name=null.glassPane
+2019-04-24 18:27:44:823 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:44:823 IBController: SwingUtils.findButton | JPanel.name=null.glassPane
+2019-04-24 18:27:44:823 IBController: SwingUtils.findButton | component.name=null.layeredPane
+2019-04-24 18:27:44:829 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLayeredPane
+2019-04-24 18:27:44:829 IBController: SwingUtils.findButton | component.name=null.contentPane
+2019-04-24 18:27:44:829 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:44:829 IBController: SwingUtils.findButton | JPanel.name=null.contentPane
+2019-04-24 18:27:44:829 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:829 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:44:829 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:44:831 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:831 IBController: SwingUtils.findButton | component.canonical-name=ibgateway.aB
+2019-04-24 18:27:44:831 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:44:831 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:831 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:44:831 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:44:831 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:831 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:44:833 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:44:833 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:833 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:44:833 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:44:833 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:833 IBController: SwingUtils.findButton | component.canonical-name=ibgateway.aA
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | component.canonical-name=feature.farm.v
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:834 IBController: SwingUtils.findButton | component.canonical-name=jclient.qc
+2019-04-24 18:27:44:835 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:835 IBController: SwingUtils.findButton | component.canonical-name=ibgateway.az
+2019-04-24 18:27:44:835 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:44:835 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:835 IBController: SwingUtils.findButton | component.canonical-name=ibgateway.ay
+2019-04-24 18:27:44:835 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:44:835 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:835 IBController: SwingUtils.findButton | component.canonical-name=trader.common.tag.l
+2019-04-24 18:27:44:835 IBController: SwingUtils.findButton | JCheckBox.name=null
+2019-04-24 18:27:44:835 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:835 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:27:44:835 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:835 IBController: SwingUtils.findButton | component.canonical-name=trader.common.tag.l
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | JCheckBox.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.canonical-name=jutils.d6
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.canonical-name=jutils.d6
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JTabbedPane
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | JButton.text=Clear
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dR
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:44:836 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dP
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dM
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.io
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.ij
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.ij
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:44:837 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.ij
+2019-04-24 18:27:44:837 IBController: SwingUtils.findMenuItemInAnyMenuBar
+2019-04-24 18:27:44:837 IBController: SwingUtils.findMenuBar | ith=0
+2019-04-24 18:27:44:837 IBController: SwingUtils.findMenuItem
+2019-04-24 18:27:44:838 IBController: SwingUtils.findMenuItem | text=Help
+2019-04-24 18:27:44:838 IBController: SwingUtils.findMenuItem | text=About Trader Workstation...
+2019-04-24 18:27:44:838 IBController: SwingUtils.findMenuItem | text=About Trader Workstation...
+2019-04-24 18:27:44:838 IBController: SwingUtils.findMenuBar | ith=1
+2019-04-24 18:27:44:838 IBController: SwingUtils.findMenuItemInAnyMenuBar
+2019-04-24 18:27:44:838 IBController: SwingUtils.findMenuBar | ith=0
+2019-04-24 18:27:44:838 IBController: SwingUtils.findMenuItem
+2019-04-24 18:27:44:838 IBController: SwingUtils.findMenuItem | text=Help
+2019-04-24 18:27:44:838 IBController: SwingUtils.findMenuItem | text=About IB Gateway
+2019-04-24 18:27:44:838 IBController: SwingUtils.findMenuItem | text=About IB Gateway
+2019-04-24 18:27:44:838 IBController: Found Gateway main window
+2019-04-24 18:27:45:332 IBController: LogWindow.window: twslaunch.feature.welcome.H
+2019-04-24 18:27:45:332 IBController: LogWindow.event: Activated
+2019-04-24 18:27:45:332 IBController: Detected frame entitled: Authenticating...; event=Activated
+2019-04-24 18:27:45:332 IBController: SwingUtils.titleContains |title=Authenticating... |text=Exit Session Setting
+2019-04-24 18:27:45:332 IBController: SwingUtils.titleContains |title=Authenticating... |text=Session-Exit-Einstellung
+2019-04-24 18:27:45:332 IBController: SwingUtils.findLabel | text=Newer Version
+2019-04-24 18:27:45:332 IBController: SwingUtils.titleContains |title=Authenticating... |text=NSE Compliance
+2019-04-24 18:27:45:332 IBController: SwingUtils.titleContains |title=Authenticating... |text=Password Notice
+2019-04-24 18:27:45:341 IBController: LogWindow.window: twslaunch.feature.welcome.H
+2019-04-24 18:27:45:341 IBController: LogWindow.event: Opened
+2019-04-24 18:27:45:341 IBController: Detected frame entitled: Authenticating...; event=Opened
+
+null(twslaunch.feature.welcome.I)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(javax.swing.Box)
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(twslaunch.feature.welcome.G){JButton: null}
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   |   null(twslaunch.feature.welcome.G){JButton: null}
+|   |   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Logging in d0h3gyu9h}
+|   |   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   |   null(javax.swing.JTextPane)
+|   |   |   |   |   |   |   null(javax.swing.JLabel){JLabel: No internet connectivity, check your network connection}
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JProgressBar)
+|   |   |   |   |   null(javax.swing.JPanel)
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Authenticating...}
+|   |   |   |   |   |   null(javax.swing.JLabel){JLabel: Build 975.3c Mar 26 2019 11:28:52 AM}
+
+
+2019-04-24 18:27:45:341 IBController: SwingUtils.titleContains |title=Authenticating... |text=Exit Session Setting
+2019-04-24 18:27:45:341 IBController: SwingUtils.titleContains |title=Authenticating... |text=Session-Exit-Einstellung
+2019-04-24 18:27:45:341 IBController: SwingUtils.titleEquals |title=Authenticating... |text=New Login
+2019-04-24 18:27:45:341 IBController: SwingUtils.titleEquals |title=Authenticating... |text=Login
+2019-04-24 18:27:45:341 IBController: Trading mode from settings: tradingMode=paper
+2019-04-24 18:27:45:341 IBController: SwingUtils.titleContains |title=Authenticating... |text=IB Gateway
+2019-04-24 18:27:45:341 IBController: SwingUtils.findMenuItemInAnyMenuBar
+2019-04-24 18:27:45:341 IBController: SwingUtils.findMenuBar | ith=0
+2019-04-24 18:27:45:341 IBController: SwingUtils.findMenuItemInAnyMenuBar
+2019-04-24 18:27:45:341 IBController: SwingUtils.findMenuBar | ith=0
+2019-04-24 18:27:45:341 IBController: SwingUtils.findLabel | text=Newer Version
+2019-04-24 18:27:45:341 IBController: SwingUtils.titleContains |title=Authenticating... |text=NSE Compliance
+2019-04-24 18:27:45:341 IBController: SwingUtils.titleContains |title=Authenticating... |text=Password Notice
+2019-04-24 18:27:45:341 IBController: SwingUtils.titleContains |title=Authenticating... |text=Trades
+LogModuleConfigurator-Init: Log4j Ver2.x found on classpath
+LogModuleConfigurator-Init: LogModuleConfigurator initialized with Log4j Verd.x
+2019-04-24 18:27:51:816 IBController: LogWindow.window: ibgateway.aw
+2019-04-24 18:27:51:817 IBController: LogWindow.event: Activated
+2019-04-24 18:27:51:817 IBController: Detected frame entitled: IB Gateway.  API Account: d0h3gyu9h; event=Activated
+2019-04-24 18:27:51:817 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=Exit Session Setting
+2019-04-24 18:27:51:817 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=Session-Exit-Einstellung
+2019-04-24 18:27:51:817 IBController: SwingUtils.findLabel | text=Newer Version
+2019-04-24 18:27:51:817 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=NSE Compliance
+2019-04-24 18:27:51:817 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=Password Notice
+2019-04-24 18:27:51:819 IBController: LogWindow.window: twslaunch.feature.welcome.H
+2019-04-24 18:27:51:819 IBController: LogWindow.event: Closed
+2019-04-24 18:27:51:819 IBController: Detected frame entitled: Starting application...; event=Closed
+2019-04-24 18:27:51:819 IBController: SwingUtils.titleContains |title=Starting application... |text=Trades
+2019-04-24 18:27:51:819 IBController: SwingUtils.titleContains |title=Starting application... |text=Starting application...
+2019-04-24 18:27:52:014 IBController: LogWindow.window: jclient.login.as
+2019-04-24 18:27:52:014 IBController: LogWindow.event: Activated
+2019-04-24 18:27:52:014 IBController: Detected dialog entitled: Warning; event=Activated
+2019-04-24 18:27:52:014 IBController: SwingUtils.findLabel | text=Newer Version
+2019-04-24 18:27:52:014 IBController: SwingUtils.findOptionPane
+2019-04-24 18:27:52:014 IBController: SwingUtils.titleContains |title=Warning |text=Login
+2019-04-24 18:27:52:014 IBController: SwingUtils.titleContains |title=Warning |text=Tip of the Day
+2019-04-24 18:27:52:017 IBController: LogWindow.window: jclient.login.as
+2019-04-24 18:27:52:017 IBController: LogWindow.event: Opened
+2019-04-24 18:27:52:017 IBController: Detected dialog entitled: Warning; event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null.contentPane(javax.swing.JPanel)
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(javax.swing.JLabel){JLabel: null}
+|   |   |   |   null(javax.swing.JLabel){JLabel: <html>This is not a brokerage account. <br>This is a "paper" trading account in which you <br>can engage in simulated trading. <br><br>Please confirm that you understand and wish <br>to conduct simulated trading before proceeding.</html>}
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(trader.common.tag.k){JButton: I understand and accept}
+|   |   null(javax.swing.JPanel)
+|   |   |   null(jtscomponents.plaf.dT)
+|   |   null(jtscomponents.plaf.dR)
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: Warning}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dw){JButton: }
+|   |   |   null(jtscomponents.plaf.dP)
+|   |   |   |   null(jtscomponents.plaf.dM){JLabel: }
+|   |   |   Close(jtscomponents.plaf.dk)[Disabled]{JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dl){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dk)[Disabled]{JButton: }
+
+
+2019-04-24 18:27:52:017 IBController: SwingUtils.findLabel | text=Accept incoming connection
+2019-04-24 18:27:52:017 IBController: SwingUtils.findLabel | text=blind trading
+2019-04-24 18:27:52:017 IBController: SwingUtils.findLabel | text=Newer Version
+2019-04-24 18:27:52:017 IBController: SwingUtils.findOptionPane
+2019-04-24 18:27:52:017 IBController: SwingUtils.titleContains |title=Warning |text=Login
+2019-04-24 18:27:52:017 IBController: SwingUtils.titleContains |title=Warning |text=Tip of the Day
+2019-04-24 18:27:52:017 IBController: SwingUtils.titleContains |title=Warning |text=Configuration
+2019-04-24 18:27:52:017 IBController: SwingUtils.titleContains |title=Warning |text=Existing session detected
+2019-04-24 18:27:52:017 IBController: SwingUtils.findButton | text=Enter Read Only
+2019-04-24 18:27:52:017 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:017 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JRootPane
+2019-04-24 18:27:52:017 IBController: SwingUtils.findButton | component.name=null.glassPane
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | JPanel.name=null.glassPane
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.name=null.layeredPane
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLayeredPane
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.name=null.contentPane
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | JPanel.name=null.contentPane
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | JButton.text=I understand and accept
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dT
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:018 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dR
+2019-04-24 18:27:52:019 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:52:019 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:019 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:52:019 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:52:019 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:019 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:52:019 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:52:019 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:019 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:52:019 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:52:019 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dP
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dM
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:27:52:020 IBController: SwingUtils.titleContains |title=Warning |text=Re-login is required
+2019-04-24 18:27:52:020 IBController: SwingUtils.findLabel | text=This is not a brokerage account
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | text=I understand and accept
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JRootPane
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | component.name=null.glassPane
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | JPanel.name=null.glassPane
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | component.name=null.layeredPane
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLayeredPane
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | component.name=null.contentPane
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | JPanel.name=null.contentPane
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:52:020 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:52:021 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:021 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:52:021 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:52:021 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:021 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:27:52:021 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:27:52:021 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:27:52:021 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:27:52:021 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:27:52:021 IBController: SwingUtils.findButton | JButton.text=I understand and accept
+2019-04-24 18:27:52:021 IBController: SwingUtils.findButton | setting
+2019-04-24 18:27:52:021 IBController: Click button: I understand and accept
+2019-04-24 18:27:52:174 IBController: LogWindow.window: ibgateway.aw
+2019-04-24 18:27:52:174 IBController: LogWindow.event: Activated
+2019-04-24 18:27:52:174 IBController: Detected frame entitled: IB Gateway.  API Account: d0h3gyu9h; event=Activated
+2019-04-24 18:27:52:174 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=Exit Session Setting
+2019-04-24 18:27:52:174 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=Session-Exit-Einstellung
+2019-04-24 18:27:52:174 IBController: SwingUtils.findLabel | text=Newer Version
+2019-04-24 18:27:52:174 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=NSE Compliance
+2019-04-24 18:27:52:175 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=Password Notice
+2019-04-24 18:27:52:176 IBController: LogWindow.window: jclient.login.as
+2019-04-24 18:27:52:176 IBController: LogWindow.event: Closed
+2019-04-24 18:27:52:176 IBController: Detected dialog entitled: Warning; event=Closed
+2019-04-24 18:27:52:176 IBController: SwingUtils.titleContains |title=Warning |text=Configuration
+2019-04-24 18:28:01:113 IBController: LogWindow.window: ibgateway.aw
+2019-04-24 18:28:01:113 IBController: LogWindow.event: Closing
+2019-04-24 18:28:01:113 IBController: Detected frame entitled: IB Gateway.  API Account: d0h3gyu9h; event=Closing
+2019-04-24 18:28:01:113 IBController: SwingUtils.titleContains |title=IB Gateway.  API Account: d0h3gyu9h |text=Trades
+2019-04-24 18:28:01:233 IBController: LogWindow.window: jclient.login.av
+2019-04-24 18:28:01:233 IBController: LogWindow.event: Activated
+2019-04-24 18:28:01:233 IBController: Detected dialog entitled: Shutdown progress; event=Activated
+2019-04-24 18:28:01:233 IBController: SwingUtils.findLabel | text=Newer Version
+2019-04-24 18:28:01:233 IBController: SwingUtils.findOptionPane
+2019-04-24 18:28:01:233 IBController: SwingUtils.titleContains |title=Shutdown progress |text=Login
+2019-04-24 18:28:01:233 IBController: SwingUtils.titleContains |title=Shutdown progress |text=Tip of the Day
+2019-04-24 18:28:01:234 IBController: LogWindow.window: jclient.login.av
+2019-04-24 18:28:01:234 IBController: LogWindow.event: Opened
+2019-04-24 18:28:01:234 IBController: Detected dialog entitled: Shutdown progress; event=Opened
+
+null(javax.swing.JRootPane)
+|   null.glassPane(javax.swing.JPanel)
+|   null.layeredPane(javax.swing.JLayeredPane)
+|   |   null(javax.swing.JPanel)
+|   |   |   null(javax.swing.JProgressBar)
+|   |   |   null(javax.swing.Box$Filler)
+|   |   |   null(javax.swing.Box$Filler)
+|   |   |   null(javax.swing.JPanel)
+|   |   |   |   null(javax.swing.JLabel){JLabel: Preparing to shutdown IA...}
+|   |   |   |   null(javax.swing.Box$Filler)
+|   |   |   |   null(trader.common.tag.k)[Disabled]{JButton: Cancel}
+|   |   null(javax.swing.JPanel)
+|   |   |   null(jtscomponents.plaf.dT)
+|   |   null(jtscomponents.plaf.dR)
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(javax.swing.JLabel){JLabel: Shutdown progress}
+|   |   |   null(javax.swing.JLabel){JLabel: }
+|   |   |   null(jtscomponents.plaf.dw){JButton: }
+|   |   |   null(jtscomponents.plaf.dP)
+|   |   |   |   null(jtscomponents.plaf.dM){JLabel: }
+|   |   |   Close(jtscomponents.plaf.dk)[Disabled]{JButton: }
+|   |   |   Maximize(jtscomponents.plaf.dl){JButton: }
+|   |   |   Minimize(jtscomponents.plaf.dk)[Disabled]{JButton: }
+|   |   |   Keep window on top(trader.common.dP)
+
+
+2019-04-24 18:28:01:234 IBController: SwingUtils.findLabel | text=Accept incoming connection
+2019-04-24 18:28:01:234 IBController: SwingUtils.findLabel | text=blind trading
+2019-04-24 18:28:01:234 IBController: SwingUtils.findLabel | text=Newer Version
+2019-04-24 18:28:01:234 IBController: SwingUtils.findOptionPane
+2019-04-24 18:28:01:234 IBController: SwingUtils.titleContains |title=Shutdown progress |text=Login
+2019-04-24 18:28:01:234 IBController: SwingUtils.titleContains |title=Shutdown progress |text=Tip of the Day
+2019-04-24 18:28:01:234 IBController: SwingUtils.titleContains |title=Shutdown progress |text=Configuration
+2019-04-24 18:28:01:234 IBController: SwingUtils.titleContains |title=Shutdown progress |text=Existing session detected
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | text=Enter Read Only
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JRootPane
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.name=null.glassPane
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | JPanel.name=null.glassPane
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.name=null.layeredPane
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLayeredPane
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JProgressBar
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:235 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.Box.Filler
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | JButton.text=Cancel
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JPanel
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dT
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dR
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.canonical-name=javax.swing.JLabel
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dP
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | JPanel.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.canonical-name=jtscomponents.plaf.dM
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | JLabel.name=null
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | JButton.text=
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.name=Keep window on top
+2019-04-24 18:28:01:236 IBController: SwingUtils.findButton | component.canonical-name=trader.common.dP
+2019-04-24 18:28:01:236 IBController: SwingUtils.titleContains |title=Shutdown progress |text=Re-login is required
+2019-04-24 18:28:01:236 IBController: SwingUtils.findLabel | text=This is not a brokerage account
+2019-04-24 18:28:01:236 IBController: SwingUtils.findLabel | text=Are you sure you want to exit?
+2019-04-24 18:28:02,531 JTS-ShutdownTask-Shutdown_IA-84 ERROR Attempted to append to non-started appender e
+2019-04-24 18:28:02,532 NIA-Input-Queue-2 ERROR Attempted to append to non-started appender e
+2019-04-24 18:28:02,533 NIA-Input-Queue-2 ERROR Attempted to append to non-started appender e
+2019-04-24 18:28:02,677 NIA-Input-Queue-2 ERROR Attempted to append to non-started appender e
+
+Process finished with exit code 0
